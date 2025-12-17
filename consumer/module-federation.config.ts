@@ -3,7 +3,11 @@ import path from 'path';
 
 export default createModuleFederationConfig({
   name: 'modern_consumer',
-  filename: 'remoteEntry.js',
+  manifest: {
+    filePath: 'static',
+  },
+  // Update filename to be inside 'static'
+  filename: 'static/remoteEntry.js',
   // remotes: {
   //   'provider': 'modern_provider@http://localhost:3001/mf-manifest.json',
   // },
@@ -19,7 +23,7 @@ export default createModuleFederationConfig({
     '@module-federation/modern-js': { singleton: true, requiredVersion: false },
   },
   shareStrategy: 'loaded-first',
-  runtimePlugins: [
-    path.join(__dirname, './src/plugins/retry.ts'),
-  ],
+  // runtimePlugins: [
+  //   path.join(__dirname, './src/plugins/retry.ts'),
+  // ],
 });

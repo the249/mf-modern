@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "scripts": {
     "reset": "npx rimraf node_modules ./**/node_modules",
+    "clean": "rimraf node_modules/.cache .modern dist",
     "dev": "modern dev",
+    "dev:clean": "pnpm run clean && pnpm run dev",
     "build": "modern build",
     "start": "modern start",
     "serve": "modern serve",

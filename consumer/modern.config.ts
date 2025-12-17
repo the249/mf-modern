@@ -15,7 +15,19 @@ export default defineConfig({
   server: {
     port: 3002,
   },
+  dev: {
+    assetPrefix: 'http://localhost:3002/', 
+  },
   output: {
     assetPrefix: 'http://localhost:3002/', 
+  },
+  tools: {
+    devServer: {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
+        'Access-Control-Allow-Headers': 'X-Requested-With, content-type, Authorization',
+      },
+    },
   },
 });
