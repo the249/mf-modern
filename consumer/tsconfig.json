@@ -1,6 +1,8 @@
 {
   "extends": "@modern-js/tsconfig/base",
   "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "Bundler",
     "declaration": false,
     "jsx": "preserve",
     "baseUrl": "./",

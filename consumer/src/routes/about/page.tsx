@@ -1,7 +1,6 @@
-
 const Index = () => (
   <div className="container-box">
-    <div>This is the host</div>
+    About page for remote
   </div>
 );
 

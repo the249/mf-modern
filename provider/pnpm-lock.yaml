@@ -15,11 +15,11 @@ importers:
         specifier: ^2.2.0
         version: 2.2.0(react@18.3.1)
       '@modern-js/plugin-tailwindcss':
-        specifier: 2.68.7
-        version: 2.68.7(@modern-js/runtime@2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@4.1.18)
+        specifier: 2.69.5
+        version: 2.69.5(@modern-js/runtime@2.69.5(react-dom@18.3.1(react@18.3.1))(react-server-dom-webpack@19.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(webpack@5.104.0(esbuild@0.25.5)))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@4.1.18)
       '@modern-js/runtime':
-        specifier: 2.68.7
-        version: 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 2.69.5
+        version: 2.69.5(react-dom@18.3.1(react@18.3.1))(react-server-dom-webpack@19.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(webpack@5.104.0(esbuild@0.25.5)))(react@18.3.1)
       '@module-federation/bridge-react':
         specifier: 0.21.6
         version: 0.21.6(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
@@ -40,14 +40,17 @@ importers:
         specifier: 1.8.3
         version: 1.8.3
       '@modern-js/app-tools':
-        specifier: 2.68.7
-        version: 2.68.7(@rspack/core@1.6.7(@swc/helpers@0.5.17))(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.28.5)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))(tsconfig-paths@4.2.0)(type-fest@0.21.3)(typescript@5.0.4)
+        specifier: 2.69.5
+        version: 2.69.5(@rspack/core@1.6.8(@swc/helpers@0.5.17))(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.28.5)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))(tsconfig-paths@4.2.0)(type-fest@0.21.3)(typescript@5.0.4)
       '@modern-js/tsconfig':
-        specifier: 2.68.7
-        version: 2.68.7
+        specifier: 2.69.5
+        version: 2.69.5
       '@module-federation/modern-js':
         specifier: 0.21.6
-        version: 0.21.6(@rsbuild/core@1.4.14)(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
+        version: 0.21.6(@rsbuild/core@1.6.15)(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
+      '@tailwindcss/postcss':
+        specifier: ^4.1.18
+        version: 4.1.18
       '@types/jest':
         specifier: ~29.2.4
         version: 29.2.6
@@ -77,6 +80,10 @@ importers:
         version: 5.0.4
 
 packages:
+
+  '@alloc/quick-lru@5.2.0':
+    resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@alloc/quick-lru/-/quick-lru-5.2.0.tgz}
+    engines: {node: '>=10'}
 
   '@babel/code-frame@7.27.1':
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@babel/code-frame/-/code-frame-7.27.1.tgz}
@@ -1073,8 +1080,8 @@ packages:
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.11.tgz}
     hasBin: true
 
-  '@modern-js/app-tools@2.68.7':
-    resolution: {integrity: sha512-8n91I5h9nTcNg+RvDZB5SJDacgw9l73NMcDehLXytuRXrR6+d+piNKLESv8Vd4YyNYrJLwk/rcvuWNeG5Tz3kw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/app-tools/-/app-tools-2.68.7.tgz}
+  '@modern-js/app-tools@2.69.5':
+    resolution: {integrity: sha512-iK5yiveR7hcj1wAkgVglrnCFEojdF84QlPqnhrs244imwdPKZU8w0bQ8Xiw61srj3vjf1lOdGtrbRQXHQEEASA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/app-tools/-/app-tools-2.69.5.tgz}
     engines: {node: '>=14.17.6'}
     hasBin: true
     peerDependencies:
@@ -1086,66 +1093,67 @@ packages:
       tsconfig-paths:
         optional: true
 
-  '@modern-js/babel-compiler@2.68.7':
-    resolution: {integrity: sha512-hiW5r+z5/3IbUDrWwijuo9cFZMma4JM7ag7/R+4Q42xWrgz6KqnG2tolmdAAK1+kKXZZ9sytWw2sgiu2cgpgfA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/babel-compiler/-/babel-compiler-2.68.7.tgz}
+  '@modern-js/babel-compiler@2.69.5':
+    resolution: {integrity: sha512-2tcDmXu12aGgp+XqBgpA00Vh6xTz7WFvDOiuIXQiGdkcdTJH5fYgiS7EHnFxXZB7M65JSUoP62+j1fVFESnu2g==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/babel-compiler/-/babel-compiler-2.69.5.tgz}
 
-  '@modern-js/babel-plugin-module-resolver@2.68.7':
-    resolution: {integrity: sha512-NW/7ouvuJIgiePlrsCC4zOt2DIhiM6rnLswVQvlR972OP4T5x5BVr5UUWzk8LAixYtZa/218GDPTUjVTQcXCVA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/babel-plugin-module-resolver/-/babel-plugin-module-resolver-2.68.7.tgz}
+  '@modern-js/babel-plugin-module-resolver@2.69.5':
+    resolution: {integrity: sha512-PktXdfPzd5JODRc6H5AHOO0W2eOB2c+Zg6yOMdOiAr/Y4rleuj7IQewK15hvsqgznXCc8SdeSRgOdXyNZeyGbA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/babel-plugin-module-resolver/-/babel-plugin-module-resolver-2.69.5.tgz}
 
-  '@modern-js/babel-preset@2.68.7':
-    resolution: {integrity: sha512-0MocPeT4hVjzFt5M9xPOUgV0w3PAZKxUe/ttvlFFliy0xccQbMBNZjzTm5mvOA3OUsTt12IVYiyj4RGP/HpabA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/babel-preset/-/babel-preset-2.68.7.tgz}
+  '@modern-js/babel-preset@2.69.5':
+    resolution: {integrity: sha512-XKyycMD50J4pvveaVQb4OGt5jENmSvzh12VVXVlrwtv6aiUnX3qOeVvCDpbBdm+tERb2kX1eONoU8s6GMiISkg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/babel-preset/-/babel-preset-2.69.5.tgz}
 
-  '@modern-js/core@2.68.7':
-    resolution: {integrity: sha512-I4EvR4EE/x/h1louc9rzwOx1F+FvHnEy6BKwaRHJvYDueSQLwLoLEeP1ttIGvxNDuSDjARQTv5mx2AtG9lZnEg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/core/-/core-2.68.7.tgz}
+  '@modern-js/core@2.69.5':
+    resolution: {integrity: sha512-3YK5lSnyV/EuNWsnoMlga5/fmMudtp6PTrwG7JcvHVh4uGtctbDX3ATu/UXaTg23OXuClQTcoinnZ7y8eCw1sA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/core/-/core-2.69.5.tgz}
 
-  '@modern-js/flight-server-transform-plugin@2.68.7':
-    resolution: {integrity: sha512-O2ywZCHx4aLpG+g4To52/kYze29+1pSGAkxyCFXv0tfxbHNwHBkJDb/XwMldacpzlXF0jHFITDfCaixYC2qQ/w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/flight-server-transform-plugin/-/flight-server-transform-plugin-2.68.7.tgz}
+  '@modern-js/flight-server-transform-plugin@2.69.5':
+    resolution: {integrity: sha512-Q1ddn06cVYL2iQLB3w3lxLhdRuWnJ2d7cQCEmXTaonSKJTfsEnFp6oHhkOFLdgpjgeZyrmPUxNiq5icWg9crrA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/flight-server-transform-plugin/-/flight-server-transform-plugin-2.69.5.tgz}
 
   '@modern-js/node-bundle-require@2.68.2':
     resolution: {integrity: sha512-MWk/pYx7KOsp+A/rN0as2ji/Ba8x0m129aqZ3Lj6T6CCTWdz0E/IsamPdTmF9Jnb6whQoBKtWSaLTCQlmCoY0Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/node-bundle-require/-/node-bundle-require-2.68.2.tgz}
 
-  '@modern-js/node-bundle-require@2.68.7':
-    resolution: {integrity: sha512-psUoG4aALOSvr3grqm+G9nNb+/LPin4p1utF8KchTl4VDf5mUqlX8vbXF2bhttDsW5LfoA0liW8QfWLqQmAWGA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/node-bundle-require/-/node-bundle-require-2.68.7.tgz}
+  '@modern-js/node-bundle-require@2.69.5':
+    resolution: {integrity: sha512-4PQ6SFdocGCmcs65qknu70Vhoe0g6y1kHEdB7x4c/egscZWNdQOZ7vqlOyfA+WhDhHehBTX7kSxGfqKN7L3mjg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/node-bundle-require/-/node-bundle-require-2.69.5.tgz}
 
-  '@modern-js/plugin-data-loader@2.68.7':
-    resolution: {integrity: sha512-FI3QHzl4SbmH+WbKpVefxOKzrWHpdsBBFt/i9m5FiymiB+NXb/Ead2viM52DCLdXzLBf8m2B7vNBc9J1GyIbDw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/plugin-data-loader/-/plugin-data-loader-2.68.7.tgz}
+  '@modern-js/plugin-data-loader@2.69.5':
+    resolution: {integrity: sha512-v+qvlnLO9FH7bpyAn6WeZo3jq3U2kwJ02OjKStsDT9kAz+2Ecn/mBO7132pNW2wxfE8erXE1UWCn5E3bRPP8qw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/plugin-data-loader/-/plugin-data-loader-2.69.5.tgz}
     engines: {node: '>=16.2.0'}
     peerDependencies:
       react: '>=17.0.0'
 
-  '@modern-js/plugin-i18n@2.68.7':
-    resolution: {integrity: sha512-5vbF5oP2tOZQTJj4CevUwSJm5DuZOvu8yDrgJEPuRqgADFqi4rkdlVWELTTPd0tZFviaPoyxhnLb9j6VK54PYA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/plugin-i18n/-/plugin-i18n-2.68.7.tgz}
+  '@modern-js/plugin-i18n@2.69.5':
+    resolution: {integrity: sha512-QIX+tLaGQ0qQtFUO+VLL33h3NGPDZOEOx4LyU2bRsrAX6jxZfNNHawnmHz0OGNR1XR/JEKNA+UKAUY8oSjsjmg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/plugin-i18n/-/plugin-i18n-2.69.5.tgz}
 
-  '@modern-js/plugin-tailwindcss@2.68.7':
-    resolution: {integrity: sha512-SbJ/BfHYgndythr1POM6+PILEwTm5y6ZahbYNJkrAnf8LeHBRY6JQ40qaIfA0BOJOTse19Z5BpIWoW3fpsLtlQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/plugin-tailwindcss/-/plugin-tailwindcss-2.68.7.tgz}
+  '@modern-js/plugin-tailwindcss@2.69.5':
+    resolution: {integrity: sha512-7a+3phCQ1LCkzZgQnO/VMFtnkdhFeZUWHW8TxeKthEM46qjADkpuKKuYF4FfNFA0ICxQNiSxdZZya8o0T0vmqA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/plugin-tailwindcss/-/plugin-tailwindcss-2.69.5.tgz}
     peerDependencies:
-      '@modern-js/runtime': ^2.68.7
+      '@modern-js/runtime': ^2.69.5
       tailwindcss: '>= 2.0.0 || >= 3.0.0'
     peerDependenciesMeta:
       '@modern-js/runtime':
         optional: true
 
-  '@modern-js/plugin-v2@2.68.7':
-    resolution: {integrity: sha512-pmpVwLiOmYvKmJbLa9ZmfPnB2AFNK0lCczwYCT/tDIQi+GHG7DxhbaxaF7jmg/+DoqsfaawzkaLFfyw+6W4KSA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/plugin-v2/-/plugin-v2-2.68.7.tgz}
+  '@modern-js/plugin-v2@2.69.5':
+    resolution: {integrity: sha512-lirToxjPK7ASW8wLJqCMuWCnuTsHEu0sHvP6WPc8jdPLVUTX9PEo7idBoyJT2WOnArJqsC+fLXOoT1dFK+UJrQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/plugin-v2/-/plugin-v2-2.69.5.tgz}
 
-  '@modern-js/plugin@2.68.7':
-    resolution: {integrity: sha512-js9Lp6EC9Z9TV0BCM6rzFCDYKHvFOJ/QoLyBvw/dBEpfjXoU8Qjqk3EuXq4wvkly1G+rL2dUUKcAL2fGBpDTIQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/plugin/-/plugin-2.68.7.tgz}
+  '@modern-js/plugin@2.69.5':
+    resolution: {integrity: sha512-RnT6fDwwmGnBTjxeRAlaLR/Q2/qejt/GIz7pPo9RGntPXL7KuhUzOoV22Wqb9h5LQhtz0AkemtAZorCm99pEfQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/plugin/-/plugin-2.69.5.tgz}
 
-  '@modern-js/prod-server@2.68.7':
-    resolution: {integrity: sha512-Z6gjBJxCpVRTiJSGV/XxS7iLdCo9C24JW6bEbRmKclTRL+EGo5yYcu3s3HTabLRkfUrsMbxsYvOQd7QsYekKAA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/prod-server/-/prod-server-2.68.7.tgz}
+  '@modern-js/prod-server@2.69.5':
+    resolution: {integrity: sha512-XQNQnEAoWOKyHg8pz5g4QuA+CuPQn1yQ+H5Zs+afBsi/F84MyXvFaT/AAtroqDrAcEAXoMGyRSZJ2CRyqqLv2Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/prod-server/-/prod-server-2.69.5.tgz}
     engines: {node: '>=16.2.0'}
 
-  '@modern-js/render@2.68.7':
-    resolution: {integrity: sha512-iEImAsYPoSdKnCoSUqf7I8a43BVdz3DnC+o3dqf0916m3FdJG6McnM2O/frCwBM7NVQ86nRiDUnrBedMlqYpAw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/render/-/render-2.68.7.tgz}
+  '@modern-js/render@2.69.5':
+    resolution: {integrity: sha512-gMXEPmYlUYHVFqqfEO9xCY31ws0PaqOyL89qatdP3yJb/hf1e06WHtPLXRwYSV5whB6HsTS1/woH5iVtipK9zA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/render/-/render-2.69.5.tgz}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
+      react-server-dom-webpack: ^19.0.3
 
-  '@modern-js/rsbuild-plugin-esbuild@2.68.7':
-    resolution: {integrity: sha512-Y+KhydaTrwBkWpQ0QPySLcA4zqY6NpmFMdesevuDmV4Dk4+eER8R5IINRr9XFMK89kIAJ8jQ/4yf94HFsGGnDg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/rsbuild-plugin-esbuild/-/rsbuild-plugin-esbuild-2.68.7.tgz}
+  '@modern-js/rsbuild-plugin-esbuild@2.69.5':
+    resolution: {integrity: sha512-+7iip0xmOi65QRfSTJVcNR/GR+nCZ6jCW998gRqBNEwLEeIPgZWLKEsclPm0vXDqx1+rV9bN4DjQDAyqHnvSYA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/rsbuild-plugin-esbuild/-/rsbuild-plugin-esbuild-2.69.5.tgz}
 
-  '@modern-js/runtime-utils@2.68.7':
-    resolution: {integrity: sha512-5fwr972o1+oqw1FEvi3X4mWzabiPSIN1tAqvCeOac37BT0nUMfm8hqSNVqAzkfYRx3GIAUOxvnBkrGh4HR+/dg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/runtime-utils/-/runtime-utils-2.68.7.tgz}
+  '@modern-js/runtime-utils@2.69.5':
+    resolution: {integrity: sha512-V6T5OJMF+a/owX2FcI45scTJNFw7azHily95YXuq0cXzrp7QaqoLRre8bEQEK7jbdTrv0yy3QK4/hL3uEQ0pHA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/runtime-utils/-/runtime-utils-2.69.5.tgz}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
@@ -1155,22 +1163,22 @@ packages:
       react-dom:
         optional: true
 
-  '@modern-js/runtime@2.68.7':
-    resolution: {integrity: sha512-k/ceCf6YjDLahYURjLWdRwZ7lDC4O1hRnxVqmEAyiRzm5txGJA6L2ERhuOegLEMHIeDOmUxBRV1uIF8bXESvXQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/runtime/-/runtime-2.68.7.tgz}
+  '@modern-js/runtime@2.69.5':
+    resolution: {integrity: sha512-B1vHWQ0pkV8bhZk4C8/xXGL9UEs/IYgkn04U+v6eQQkSmWXTqvaspGcz1eK3vXLvKKbxzTFbQxFRlpTqmPmG7g==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/runtime/-/runtime-2.69.5.tgz}
     engines: {node: '>=14.17.6'}
     peerDependencies:
       react: '>=17'
       react-dom: '>=17'
 
-  '@modern-js/server-core@2.68.7':
-    resolution: {integrity: sha512-vGU8FIdKfjhgvu3Ia68RRsqY0ZDC5yiLsYOXT/9B8NM4jdPWGOMl4v3Or69BzSGJB9Zky7XbgZ1oTRTxUcmnOg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/server-core/-/server-core-2.68.7.tgz}
+  '@modern-js/server-core@2.69.5':
+    resolution: {integrity: sha512-ravYtx4A4ITaCPwIuHDFzM2UtqjiGLhynGPDqKEF9c8YqmgmAsAxQXjqw+w5tlsYQ2+sEj3h18EUl//mN00J4Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/server-core/-/server-core-2.69.5.tgz}
     engines: {node: '>=16.2.0'}
 
-  '@modern-js/server-utils@2.68.7':
-    resolution: {integrity: sha512-Bbv3l2eOMuF6mhvGajxrZraisjRJhxFUFycPu75lZj35Gd3d6vj//H34jnkeHHlDkKItOP8Z8umrI1l1VUAj8w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/server-utils/-/server-utils-2.68.7.tgz}
+  '@modern-js/server-utils@2.69.5':
+    resolution: {integrity: sha512-9kxbIu4Q5gWlcX1pJ+JE3zqPbgfNJttD0lXGUf/dd9ZYLgzbz0i16ePou9pv0hhDX2JXh0YTUHFeMiszjFP5dw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/server-utils/-/server-utils-2.69.5.tgz}
 
-  '@modern-js/server@2.68.7':
-    resolution: {integrity: sha512-Y0WHXGhODS5hdYN4W+mSSF2b1EurZwi/2pgaQ7ATSi+/PflqZuVy5Ru/Nj2RTRNS/876wNwS+uLmrVDfFbGYWQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/server/-/server-2.68.7.tgz}
+  '@modern-js/server@2.69.5':
+    resolution: {integrity: sha512-yNKUJIxBukbqOlRm+9BGSLFASO42Mk8DUPAyXSIwStix0fZztoDSSbgGI71wWcjB7nLbSQ32gYMERJ8taMgZVA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/server/-/server-2.69.5.tgz}
     peerDependencies:
       devcert: ^1.2.2
       ts-node: ^10.1.0
@@ -1183,20 +1191,20 @@ packages:
       tsconfig-paths:
         optional: true
 
-  '@modern-js/tsconfig@2.68.7':
-    resolution: {integrity: sha512-MfNWlvG+YtiHiuBZGrFMVeD5NShnLh/UJh4SO3j2r7PCtQ00GSia9ed0ZfmvCBR/j2te/iNYzo0dmVC6m8fO3A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/tsconfig/-/tsconfig-2.68.7.tgz}
+  '@modern-js/tsconfig@2.69.5':
+    resolution: {integrity: sha512-rM7Px1zFk3yBs9/W88lXp0A6nhve81xdXBff4T0m+Q62QypCGeaCOnyDB8UnM0A2DRcgshOhPrTGqByhwzccrg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/tsconfig/-/tsconfig-2.69.5.tgz}
 
-  '@modern-js/types@2.68.7':
-    resolution: {integrity: sha512-z4rIi3n/OmrazSWtvCsRXdsKIuQ24Jbn3QHwktcmzKwHJf6+x73YV5vM8Zqzjr30OfkDO6oLo52pYx/ADftKhw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/types/-/types-2.68.7.tgz}
+  '@modern-js/types@2.69.5':
+    resolution: {integrity: sha512-QAmO0lmei8qHW/nY2Hmn7unxtDJFcj3lFQi4ty25dupowloFCLSSfVi16j3wR68gpOxBa7y3aMOKQdiwx3WV4Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/types/-/types-2.69.5.tgz}
 
-  '@modern-js/uni-builder@2.68.7':
-    resolution: {integrity: sha512-0zhgR4w6qU84rpw6TqT36wz2DcnFEMvfwCazyeh9hZsx2cjuyb6AnW2GhuCTMOTuJx447k7PzrNpyPBgDZK7nQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/uni-builder/-/uni-builder-2.68.7.tgz}
+  '@modern-js/uni-builder@2.69.5':
+    resolution: {integrity: sha512-vB/ITvfieiiZrlmeLlpsQtZHBxPhHWkp0DI7Ya/0rrNvxY69nnnUTDTbcJnU7w3tqVcE8n2fjaP8W1vN1v24tg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/uni-builder/-/uni-builder-2.69.5.tgz}
 
   '@modern-js/utils@2.68.2':
     resolution: {integrity: sha512-revom/i/EhKfI0STNLo/AUbv7gY0JY0Ni2gO6P/Z4cTyZZRgd5j90678YB2DGn+LtmSrEWtUphyDH5Jn1RKjgg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/utils/-/utils-2.68.2.tgz}
 
-  '@modern-js/utils@2.68.7':
-    resolution: {integrity: sha512-YN6Y6oBPMw5DOMG+vuJqjkcAq88A8wOwxcPKjY2MtbES5+yi32tbwdTf/kIpVzt6pdE9XgzvqRhMwBKyzvFl5w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/utils/-/utils-2.68.7.tgz}
+  '@modern-js/utils@2.69.5':
+    resolution: {integrity: sha512-6kW0dmQHRyQXTDjjvbFU3O2jsiRlgCeS7AovmZoc8nHEuGrVA9rx2vd/AoRiM1yPW6JtQbg4grwBajOyKaTEEQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@modern-js/utils/-/utils-2.69.5.tgz}
 
   '@module-federation/bridge-react-webpack-plugin@0.21.6':
     resolution: {integrity: sha512-lJMmdhD4VKVkeg8RHb+Jwe6Ou9zKVgjtb1inEURDG/sSS2ksdZA8pVKLYbRPRbdmjr193Y8gJfqFbI2dqoyc/g==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/bridge-react-webpack-plugin/-/bridge-react-webpack-plugin-0.21.6.tgz}
@@ -1251,9 +1259,6 @@ packages:
         optional: true
       webpack:
         optional: true
-
-  '@module-federation/error-codes@0.17.1':
-    resolution: {integrity: sha512-n6Elm4qKSjwAPxLUGtwnl7qt4y1dxB8OpSgVvXBIzqI9p27a3ZXshLPLnumlpPg1Qudaj8sLnSnFtt9yGpt5yQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/error-codes/-/error-codes-0.17.1.tgz}
 
   '@module-federation/error-codes@0.21.6':
     resolution: {integrity: sha512-MLJUCQ05KnoVl8xd6xs9a5g2/8U+eWmVxg7xiBMeR0+7OjdWUbHwcwgVFatRIwSZvFgKHfWEiI7wsU1q1XbTRQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/error-codes/-/error-codes-0.21.6.tgz}
@@ -1324,35 +1329,20 @@ packages:
       vue-tsc:
         optional: true
 
-  '@module-federation/runtime-core@0.17.1':
-    resolution: {integrity: sha512-LCtIFuKgWPQ3E+13OyrVpuTPOWBMI/Ggwsq1Q874YeT8Px28b8tJRCj09DjyRFyhpSPyV/uG80T6iXPAUoLIfQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/runtime-core/-/runtime-core-0.17.1.tgz}
-
   '@module-federation/runtime-core@0.21.6':
     resolution: {integrity: sha512-5Hd1Y5qp5lU/aTiK66lidMlM/4ji2gr3EXAtJdreJzkY+bKcI5+21GRcliZ4RAkICmvdxQU5PHPL71XmNc7Lsw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/runtime-core/-/runtime-core-0.21.6.tgz}
-
-  '@module-federation/runtime-tools@0.17.1':
-    resolution: {integrity: sha512-4kr6zTFFwGywJx6whBtxsc84V+COAuuBpEdEbPZN//YLXhNB0iz2IGsy9r9wDl+06h84bD+3dQ05l9euRLgXzQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/runtime-tools/-/runtime-tools-0.17.1.tgz}
 
   '@module-federation/runtime-tools@0.21.6':
     resolution: {integrity: sha512-fnP+ZOZTFeBGiTAnxve+axGmiYn2D60h86nUISXjXClK3LUY1krUfPgf6MaD4YDJ4i51OGXZWPekeMe16pkd8Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/runtime-tools/-/runtime-tools-0.21.6.tgz}
 
-  '@module-federation/runtime@0.17.1':
-    resolution: {integrity: sha512-vKEN32MvUbpeuB/s6UXfkHDZ9N5jFyDDJnj83UTJ8n4N1jHIJu9VZ6Yi4/Ac8cfdvU8UIK9bIbfVXWbUYZUDsw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/runtime/-/runtime-0.17.1.tgz}
-
   '@module-federation/runtime@0.21.6':
     resolution: {integrity: sha512-+caXwaQqwTNh+CQqyb4mZmXq7iEemRDrTZQGD+zyeH454JAYnJ3s/3oDFizdH6245pk+NiqDyOOkHzzFQorKhQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/runtime/-/runtime-0.21.6.tgz}
-
-  '@module-federation/sdk@0.17.1':
-    resolution: {integrity: sha512-nlUcN6UTEi+3HWF+k8wPy7gH0yUOmCT+xNatihkIVR9REAnr7BUvHFGlPJmx7WEbLPL46+zJUbtQHvLzXwFhng==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/sdk/-/sdk-0.17.1.tgz}
 
   '@module-federation/sdk@0.21.6':
     resolution: {integrity: sha512-x6hARETb8iqHVhEsQBysuWpznNZViUh84qV2yE7AD+g7uIzHKiYdoWqj10posbo5XKf/147qgWDzKZoKoEP2dw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/sdk/-/sdk-0.21.6.tgz}
 
   '@module-federation/third-party-dts-extractor@0.21.6':
     resolution: {integrity: sha512-Il6x4hLsvCgZNk1DFwuMBNeoxD1BsZ5AW2BI/nUgu0k5FiAvfcz1OFawRFEHtaM/kVrCsymMOW7pCao90DaX3A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/third-party-dts-extractor/-/third-party-dts-extractor-0.21.6.tgz}
-
-  '@module-federation/webpack-bundler-runtime@0.17.1':
-    resolution: {integrity: sha512-Swspdgf4PzcbvS9SNKFlBzfq8h/Qxwqjq/xRSqw1pqAZWondZQzwTTqPXhgrg0bFlz7qWjBS/6a8KuH/gRvGaQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.17.1.tgz}
 
   '@module-federation/webpack-bundler-runtime@0.21.6':
     resolution: {integrity: sha512-7zIp3LrcWbhGuFDTUMLJ2FJvcwjlddqhWGxi/MW3ur1a+HaO8v5tF2nl+vElKmbG1DFLU/52l3PElVcWf/YcsQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.21.6.tgz}
@@ -1525,13 +1515,13 @@ packages:
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rollup/pluginutils/-/pluginutils-4.2.1.tgz}
     engines: {node: '>= 8.0.0'}
 
-  '@rsbuild/core@1.4.14':
-    resolution: {integrity: sha512-9ExdIME+/FFEZ30CKGLgNqjyISA8ww/n0+1qd8M69oLoodPuoqIiTMNu1fJVbErXsjje/Kd3MaodlyqGfa4RLw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/core/-/core-1.4.14.tgz}
-    engines: {node: '>=16.10.0'}
+  '@rsbuild/core@1.6.15':
+    resolution: {integrity: sha512-LvoOF53PL6zXgdzEhgnnP51S4FseDFH1bHrobK4EK6zZX/tN8qgf5tdlmN7h4OkMv/Qs1oUfvj0QcLWSstnnvA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/core/-/core-1.6.15.tgz}
+    engines: {node: '>=18.12.0'}
     hasBin: true
 
-  '@rsbuild/plugin-assets-retry@1.4.1':
-    resolution: {integrity: sha512-ap6Twh9SSn0jehvyZolfYQwTBxi/agRyE6JaPXqekipiIXE7IHDKBmSPksTQcqtjDy6RlXxBuw1i0aRZjcg26Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-assets-retry/-/plugin-assets-retry-1.4.1.tgz}
+  '@rsbuild/plugin-assets-retry@1.5.0':
+    resolution: {integrity: sha512-CUDDtHHlBhBclYiRQCdU46k6dCMbVaoDbkArsWV/KTCpdoLJESI2mtHGwsCfBMflsR9yD+MLQCAcgQdX+vZwNw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-assets-retry/-/plugin-assets-retry-1.5.0.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
     peerDependenciesMeta:
@@ -1543,29 +1533,29 @@ packages:
     peerDependencies:
       '@rsbuild/core': 1.x
 
-  '@rsbuild/plugin-check-syntax@1.3.1':
-    resolution: {integrity: sha512-yP+9vK5tDur5YmqmOaKKdfNvsOmcq/Yh1r4/DHPJKSEHJW7A25b9EzhKoq5VCyldCfPnOOQ64grjCarVLiIw0w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-check-syntax/-/plugin-check-syntax-1.3.1.tgz}
+  '@rsbuild/plugin-check-syntax@1.6.0':
+    resolution: {integrity: sha512-VVZ5cyKovh7nDt4lp0KppohcLMFIyneZf+1VJsMPg/UU8j45FCYxVw0o25gALUU3ofzl7C7iPrY4eLiUnHM3dA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-check-syntax/-/plugin-check-syntax-1.6.0.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-css-minimizer@1.0.3':
-    resolution: {integrity: sha512-z0UYQGQ42KAODA9cY3iGzd2E5ra0qNEGIaqWxwgQDmeuWsaQr21xOPubndZMUsuystOEmQCyN5eT9b47Gyf4lA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-css-minimizer/-/plugin-css-minimizer-1.0.3.tgz}
+  '@rsbuild/plugin-css-minimizer@1.1.0':
+    resolution: {integrity: sha512-0TWbShl8qPVKYTRaz5yrEUlkDtvWbS4mNZaxwcxe3wwhDgYB5TmBem0B1Zkim3jWMlHG2huzOXB4MVI+vpZKZw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-css-minimizer/-/plugin-css-minimizer-1.1.0.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-less@1.3.2':
-    resolution: {integrity: sha512-MmluLKJA0sFujCWUvB5fHIPe6PSRvrGWmlK9cOuRgOPfSPB8gQO8i2+auQXbHdG9u95LpTPoTcXEXnQ2v7tp7A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-less/-/plugin-less-1.3.2.tgz}
+  '@rsbuild/plugin-less@1.5.0':
+    resolution: {integrity: sha512-l+/J4/ZQl6UtCUqAaymo9H917ZJiqX8uxTYesG/xdyYJP2H3dn7fznjDP3d29eQhoY0wc3rcCvvjTYtpYG9OxQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-less/-/plugin-less-1.5.0.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
 
-  '@rsbuild/plugin-node-polyfill@1.4.1':
-    resolution: {integrity: sha512-3VQ007H8r5hxVdXCgOcb4jMpfXzmaXMEdMcpjeEOaTTxZlKheTW4pc51rYvf59zLgYs0bPc9SJfCbuxSOtYLxQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-node-polyfill/-/plugin-node-polyfill-1.4.1.tgz}
+  '@rsbuild/plugin-node-polyfill@1.4.2':
+    resolution: {integrity: sha512-Vq1So9ZQa0nz9scgDfAa/t7bLPl7lYBQw6n3Qhd8hGUpPXacSjr0xLdJ2c20EDihOO4qJKN4zlomBYVjCHPy0A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-node-polyfill/-/plugin-node-polyfill-1.4.2.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
     peerDependenciesMeta:
@@ -1580,26 +1570,21 @@ packages:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-react@1.3.5':
-    resolution: {integrity: sha512-L/GoHgJV4j+EQbI4KOhe5EscM0OHgnSat1eR0Nt5P3JZxpJV2ryO5Yfx5jElPWOkYZZCuk+EWhHWDQ4CkeC5BQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-react/-/plugin-react-1.3.5.tgz}
-    peerDependencies:
-      '@rsbuild/core': 1.x
-
   '@rsbuild/plugin-react@1.4.2':
     resolution: {integrity: sha512-2rJb5mOuqVof2aDq4SbB1E65+0n1vjhAADipC88jvZRNuTOulg79fh7R4tsCiBMI4VWq46gSpwekiK8G5bq6jg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-react/-/plugin-react-1.4.2.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
 
-  '@rsbuild/plugin-rem@1.0.3':
-    resolution: {integrity: sha512-tzx7Ulp7dCVy2dortcNHRlLzfOhkcT6Aaghjr+Cr78dm1zxMtiJzUtdZyTLRWPLXSSZvLB2B8N8BA3jJ1046zw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-rem/-/plugin-rem-1.0.3.tgz}
+  '@rsbuild/plugin-rem@1.0.4':
+    resolution: {integrity: sha512-ioBafyxyPafrzyHV95MUoIsMurCvWLWZnqgmbqOD5q7Yp5/D5DphLR6cb4AzGF1ZNt/86VsdfaRi7sXD6YaLeg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-rem/-/plugin-rem-1.0.4.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-sass@1.3.4':
-    resolution: {integrity: sha512-V1xj2r3t7RTwl7L2u9/HQDQEe1InNUwYU7Y5n4fFr64sbtzaV5xXwHZtJAx9Ajj2lXIwrixb4S4Jomz+UyA7Ag==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-sass/-/plugin-sass-1.3.4.tgz}
+  '@rsbuild/plugin-sass@1.4.0':
+    resolution: {integrity: sha512-2XcrXUwJftWsWURsvGKKXc7A4yEAUdVkw+K95Qrfmy5E5IfARik0Ko3TFB1828wdvhZ1OFLvDQEzONCIyQV1yg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-sass/-/plugin-sass-1.4.0.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
 
@@ -1611,16 +1596,16 @@ packages:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-styled-components@1.4.0':
-    resolution: {integrity: sha512-1G7IYz3eLKPfRAye9zjlPDzIgdtk+4ECB9Op9thVDWd2q/qs3BGb+tt+nn+J7Vsb/jA4k3OLMnt6AYEIdYwxlw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-styled-components/-/plugin-styled-components-1.4.0.tgz}
+  '@rsbuild/plugin-styled-components@1.5.0':
+    resolution: {integrity: sha512-OzxeQKz0PxQEiwaQ2tOytK/KZ2UjApqB9Mh+EU84d+17lZ67o2e0NU5Q4NXUx/71JajpOpBwlkUH+3bc1fVxzA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-styled-components/-/plugin-styled-components-1.5.0.tgz}
     peerDependencies:
-      '@rsbuild/core': ^1.4.0-beta.4 || ^1.4.0
+      '@rsbuild/core': ^1.6.0 || ^1.4.0
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-svgr@1.2.2':
-    resolution: {integrity: sha512-zd1efqsd0mDWe6B6dAKmubMvvaGrD4lPKXUZObynROvPZBSeaZxY2y2Ddrwc1yCyWL6X4WdBd1WIfShGGGKDxg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-svgr/-/plugin-svgr-1.2.2.tgz}
+  '@rsbuild/plugin-svgr@1.2.3':
+    resolution: {integrity: sha512-ehcEqRGuWqjVkF96Ibz9czFGJJQptl3E2kBC11f9oq81d8xZAFQYqP3gC4Ns9B/G/YSVVlmykfrqAyf7XGoIAQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-svgr/-/plugin-svgr-1.2.3.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
 
@@ -1632,16 +1617,16 @@ packages:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-type-check@1.2.4':
-    resolution: {integrity: sha512-0m4TRp9mTgkQ61UWnqE6cOLj/tBltXBWqLYHh8DDz+mk9qabJQ6ilTl8vQbSrg/jYH/3AksQZjlpZMEplUrE2Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-type-check/-/plugin-type-check-1.2.4.tgz}
+  '@rsbuild/plugin-type-check@1.3.2':
+    resolution: {integrity: sha512-8+N0Xbbh6d4yMxD4WeUXIywc72hJgMTdK9TDWuXvpeVfxPgmNTjS5rq0Y2nqhDdwwIzyW8sn3u0U6N7xvX0sIQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-type-check/-/plugin-type-check-1.3.2.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-typed-css-modules@1.0.3':
-    resolution: {integrity: sha512-eW1NyAbTU88KzXDU/YJj0/KLgq1KCtF0yUnPZ+E3OQ+jrFDV4h4rwcZWyElaHxO3zb7WaAY9xOkhPvlC2o4VGw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-typed-css-modules/-/plugin-typed-css-modules-1.0.3.tgz}
+  '@rsbuild/plugin-typed-css-modules@1.2.0':
+    resolution: {integrity: sha512-EUL9SaEXZRy6uVwmsvkceHq4RrPpZrlmbczgiJAMaulGiI6MIIUde1NE3sc8JIKk/M0fKgKUjKcA2oJwGbH9Dw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/plugin-typed-css-modules/-/plugin-typed-css-modules-1.2.0.tgz}
     peerDependencies:
       '@rsbuild/core': 1.x
     peerDependenciesMeta:
@@ -1656,126 +1641,65 @@ packages:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/webpack@1.3.3':
-    resolution: {integrity: sha512-uZwEQGb5Hu7Jk75mAnQH6I1NZtuObrDATc0kPNkd+PG/7vkG/hOA4H0wwzFT8Q8bzAiuthoRgoEl4HTElRDD8Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/webpack/-/webpack-1.3.3.tgz}
+  '@rsbuild/webpack@1.6.1':
+    resolution: {integrity: sha512-Y95sg0iVDLMt5rucWik6HrOGKWcursp5eAZ40NTPsmg1lvRXnzeNJGZLNVex+33fqZZZ6HEtNHMlRneILlMLpw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rsbuild/webpack/-/webpack-1.6.1.tgz}
     peerDependencies:
       '@rsbuild/core': ^1.3.21
 
-  '@rspack/binding-darwin-arm64@1.4.11':
-    resolution: {integrity: sha512-PrmBVhR8MC269jo6uQ+BMy1uwIDx0HAJYLQRQur8gXiehWabUBCRg/d4U9KR7rLzdaSScRyc5JWXR52T7/4MfA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-1.4.11.tgz}
+  '@rspack/binding-darwin-arm64@1.6.8':
+    resolution: {integrity: sha512-e8CTQtzaeGnf+BIzR7wRMUwKfIg0jd/sxMRc1Vd0bCMHBhSN9EsGoMuJJaKeRrSmy2nwMCNWHIG+TvT1CEKg+A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-1.6.8.tgz}
     cpu: [arm64]
     os: [darwin]
 
-  '@rspack/binding-darwin-arm64@1.6.7':
-    resolution: {integrity: sha512-QiIAP8JTAtht0j8/xZZEQTJRB9e+KrOm9c7JJm73CewVg55rDWRrwopiVfBNlTu1coem1ztUHJYdQhg2uXfqww==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-1.6.7.tgz}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@rspack/binding-darwin-x64@1.4.11':
-    resolution: {integrity: sha512-YIV8Wzy+JY0SoSsVtN4wxFXOjzxxVPnVXNswrrfqVUTPr9jqGOFYUWCGpbt8lcCgfuBFm6zN8HpOsKm1xUNsVA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-darwin-x64/-/binding-darwin-x64-1.4.11.tgz}
+  '@rspack/binding-darwin-x64@1.6.8':
+    resolution: {integrity: sha512-ku1XpTEPt6Za11zhpFWhfwrTQogcgi9RJrOUVC4FESiPO9aKyd4hJ+JiPgLY0MZOqsptK6vEAgOip+uDVXrCpg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-darwin-x64/-/binding-darwin-x64-1.6.8.tgz}
     cpu: [x64]
     os: [darwin]
 
-  '@rspack/binding-darwin-x64@1.6.7':
-    resolution: {integrity: sha512-DpQRxxTXkMMNPmBXeJBaAB8HmWKxH2IfvHv7vU+kBhJ3xdPtXU4/xBv1W3biluoNRG11gc1WLIgjzeGgaLCxmw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-darwin-x64/-/binding-darwin-x64-1.6.7.tgz}
-    cpu: [x64]
-    os: [darwin]
-
-  '@rspack/binding-linux-arm64-gnu@1.4.11':
-    resolution: {integrity: sha512-ms6uwECUIcu+6e82C5HJhRMHnfsI+l33v7XQezntzRPN0+sG3EpikEoT7SGbgt4vDwaWLR7wS20suN4qd5r3GA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.4.11.tgz}
+  '@rspack/binding-linux-arm64-gnu@1.6.8':
+    resolution: {integrity: sha512-fvZX6xZPvBT8qipSpvkKMX5M7yd2BSpZNCZXcefw6gA3uC7LI3gu+er0LrDXY1PtPzVuHTyDx+abwWpagV3PiQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.6.8.tgz}
     cpu: [arm64]
     os: [linux]
 
-  '@rspack/binding-linux-arm64-gnu@1.6.7':
-    resolution: {integrity: sha512-211/XoBiooGGgUo/NxNpsrzGUXtH1d7g/4+UTtjYtfc8QHwu7ZMHcsqg0wss53fXzn/yyxd0DZ56vBHq52BiFw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.6.7.tgz}
+  '@rspack/binding-linux-arm64-musl@1.6.8':
+    resolution: {integrity: sha512-++XMKcMNrt59HcFBLnRaJcn70k3X0GwkAegZBVpel8xYIAgvoXT5+L8P1ExId/yTFxqedaz8DbcxQnNmMozviw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.6.8.tgz}
     cpu: [arm64]
     os: [linux]
 
-  '@rspack/binding-linux-arm64-musl@1.4.11':
-    resolution: {integrity: sha512-9evq0DOdxMN/H8VM8ZmyY9NSuBgILNVV6ydBfVPMHPx4r1E7JZGpWeKDegZcS5Erw3sS9kVSIxyX78L5PDzzKw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.4.11.tgz}
-    cpu: [arm64]
-    os: [linux]
-
-  '@rspack/binding-linux-arm64-musl@1.6.7':
-    resolution: {integrity: sha512-0WnqAWz3WPDsXGvOOA++or7cHpoidVsH3FlqNaAfRu6ni6n7ig/s0/jKUB+C5FtXOgmGjAGkZHfFgNHsvZ0FWw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.6.7.tgz}
-    cpu: [arm64]
-    os: [linux]
-
-  '@rspack/binding-linux-x64-gnu@1.4.11':
-    resolution: {integrity: sha512-bHYFLxPPYBOSaHdQbEoCYGMQ1gOrEWj7Mro/DLfSHZi1a0okcQ2Q1y0i1DczReim3ZhLGNrK7k1IpFXCRbAobQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.4.11.tgz}
+  '@rspack/binding-linux-x64-gnu@1.6.8':
+    resolution: {integrity: sha512-tv3BWkTE1TndfX+DsE1rSTg8fBevCxujNZ3MlfZ22Wfy9x1FMXTJlWG8VIOXmaaJ1wUHzv8S7cE2YUUJ2LuiCg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.6.8.tgz}
     cpu: [x64]
     os: [linux]
 
-  '@rspack/binding-linux-x64-gnu@1.6.7':
-    resolution: {integrity: sha512-iMrE0Q4IuYpkE0MjpaOVaUDYbQFiCRI9D3EPoXzlXJj4kJSdNheODpHTBVRlWt8Xp7UAoWuIFXCvKFKcSMm3aQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.6.7.tgz}
+  '@rspack/binding-linux-x64-musl@1.6.8':
+    resolution: {integrity: sha512-DCGgZ5/in1O3FjHWqXnDsncRy+48cMhfuUAAUyl0yDj1NpsZu9pP+xfGLvGcQTiYrVl7IH9Aojf1eShP/77WGA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-1.6.8.tgz}
     cpu: [x64]
     os: [linux]
 
-  '@rspack/binding-linux-x64-musl@1.4.11':
-    resolution: {integrity: sha512-wrm4E7q2k4+cwT6Uhp6hIQ3eUe/YoaUttj6j5TqHYZX6YeLrNPtD9+ne6lQQ17BV8wmm6NZsmoFIJ5xIptpRhQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-1.4.11.tgz}
-    cpu: [x64]
-    os: [linux]
-
-  '@rspack/binding-linux-x64-musl@1.6.7':
-    resolution: {integrity: sha512-e7gKFxpdEQwYGk7lTC/hukTgNtaoAstBXehnZNk4k3kuU6+86WDrkn18Cd949iNqfIPtIG/wIsFNGbkHsH69hQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-1.6.7.tgz}
-    cpu: [x64]
-    os: [linux]
-
-  '@rspack/binding-wasm32-wasi@1.4.11':
-    resolution: {integrity: sha512-hiYxHZjaZ17wQtXyLCK0IdtOvMWreGVTiGsaHCxyeT+SldDG+r16bXNjmlqfZsjlfl1mkAqKz1dg+mMX28OTqw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-wasm32-wasi/-/binding-wasm32-wasi-1.4.11.tgz}
+  '@rspack/binding-wasm32-wasi@1.6.8':
+    resolution: {integrity: sha512-VUwdhl/lI4m6o1OGCZ9JwtMjTV/yLY5VZTQdEPKb40JMTlmZ5MBlr5xk7ByaXXYHr6I+qnqEm73iMKQvg6iknw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-wasm32-wasi/-/binding-wasm32-wasi-1.6.8.tgz}
     cpu: [wasm32]
 
-  '@rspack/binding-wasm32-wasi@1.6.7':
-    resolution: {integrity: sha512-yx88EFdE9RP3hh7VhjjW6uc6wGU0KcpOcZp8T8E/a+X8L98fX0aVrtM1IDbndhmdluIMqGbfJNap2+QqOCY9Mw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-wasm32-wasi/-/binding-wasm32-wasi-1.6.7.tgz}
-    cpu: [wasm32]
-
-  '@rspack/binding-win32-arm64-msvc@1.4.11':
-    resolution: {integrity: sha512-+HF/mnjmTr8PC1dccRt1bkrD2tPDGeqvXC1BBLYd/Klq1VbtIcnrhfmvQM6KaXbiLcY9VWKzcZPOTmnyZ8TaHQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.4.11.tgz}
+  '@rspack/binding-win32-arm64-msvc@1.6.8':
+    resolution: {integrity: sha512-23YX7zlOZlub+nPGDBUzktb4D5D6ETUAluKjXEeHIZ9m7fSlEYBnGL66YE+3t1DHXGd0OqsdwlvrNGcyo6EXDQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.6.8.tgz}
     cpu: [arm64]
     os: [win32]
 
-  '@rspack/binding-win32-arm64-msvc@1.6.7':
-    resolution: {integrity: sha512-vgxVYpFK8P5ulSXQQA+EbX78R/SUU+WIf0JIY+LoUoP89gZOsise/lKAJMAybzpeTJ1t0ndLchFznDYnzq+l4Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.6.7.tgz}
-    cpu: [arm64]
-    os: [win32]
-
-  '@rspack/binding-win32-ia32-msvc@1.4.11':
-    resolution: {integrity: sha512-EU2fQGwrRfwFd/tcOInlD0jy6gNQE4Q3Ayj0Is+cX77sbhPPyyOz0kZDEaQ4qaN2VU8w4Hu/rrD7c0GAKLFvCw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-1.4.11.tgz}
+  '@rspack/binding-win32-ia32-msvc@1.6.8':
+    resolution: {integrity: sha512-cFgRE3APxrY4AEdooVk2LtipwNNT/9mrnjdC5lVbsIsz+SxvGbZR231bxDJEqP15+RJOaD07FO1sIjINFqXMEg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-1.6.8.tgz}
     cpu: [ia32]
     os: [win32]
 
-  '@rspack/binding-win32-ia32-msvc@1.6.7':
-    resolution: {integrity: sha512-bV5RTW0Va0UQKJm9HWLt7fWNBPaBBBxCJOA2pJT3nGGm6CCXKnZSyEiVbFUk4jI/uiwBfqenlLkzaGoMRbeDhA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-1.6.7.tgz}
-    cpu: [ia32]
-    os: [win32]
-
-  '@rspack/binding-win32-x64-msvc@1.4.11':
-    resolution: {integrity: sha512-1Nc5ZzWqfvE+iJc47qtHFzYYnHsC3awavXrCo74GdGip1vxtksM3G30BlvAQHHVtEmULotWqPbjZpflw/Xk9Ag==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.4.11.tgz}
+  '@rspack/binding-win32-x64-msvc@1.6.8':
+    resolution: {integrity: sha512-cIuhVsZYd3o3Neo1JSAhJYw6BDvlxaBoqvgwRkG1rs0ExFmEmgYyG7ip9pFKnKNWph/tmW3rDYypmEfjs1is7g==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.6.8.tgz}
     cpu: [x64]
     os: [win32]
 
-  '@rspack/binding-win32-x64-msvc@1.6.7':
-    resolution: {integrity: sha512-8xlbuJQtYktlBjZupOHlO8FeZqSIhsV3ih7xBSiOYar6LI6uQzA7XiO3I5kaPSDirBMMMKv1Z4rKCxWx10a3TQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.6.7.tgz}
-    cpu: [x64]
-    os: [win32]
+  '@rspack/binding@1.6.8':
+    resolution: {integrity: sha512-lUeL4mbwGo+nqRKqFDCm9vH2jv9FNMVt1X8jqayWRcOCPlj/2UVMEFgqjR7Pp2vlvnTKq//31KbDBJmDZq31RQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding/-/binding-1.6.8.tgz}
 
-  '@rspack/binding@1.4.11':
-    resolution: {integrity: sha512-maGl/zRwnl0QVwkBCkgjn5PH20L9HdlRIdkYhEsfTepy5x2QZ0ti/0T49djjTJQrqb+S1i6wWQymMMMMMsxx6Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding/-/binding-1.4.11.tgz}
-
-  '@rspack/binding@1.6.7':
-    resolution: {integrity: sha512-7ICabuBN3gHc6PPN52+m1kruz3ogiJjg1C0gSWdLRk18m/4jlcM2aAy6wfXjgODJdB0Yh2ro/lIpBbj+AYWUGA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/binding/-/binding-1.6.7.tgz}
-
-  '@rspack/core@1.4.11':
-    resolution: {integrity: sha512-JtKnL6p7Kc/YgWQJF3Woo4OccbgKGyT/4187W4dyex8BMkdQcbqCNIdi6dFk02hwQzxpOOxRSBI4hlGRbz7oYQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/core/-/core-1.4.11.tgz}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      '@swc/helpers': '>=0.5.1'
-    peerDependenciesMeta:
-      '@swc/helpers':
-        optional: true
-
-  '@rspack/core@1.6.7':
-    resolution: {integrity: sha512-tkd4nSzTf+pDa9OAE4INi/JEa93HNszjWy5C9+trf4ZCXLLHsHxHQFbzoreuz4Vv2PlCWajgvAdiPMV1vGIkuw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/core/-/core-1.6.7.tgz}
+  '@rspack/core@1.6.8':
+    resolution: {integrity: sha512-FolcIAH5FW4J2FET+qwjd1kNeFbCkd0VLuIHO0thyolEjaPSxw5qxG67DA7BZGm6PVcoiSgPLks1DL6eZ8c+fA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/core/-/core-1.6.8.tgz}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       '@swc/helpers': '>=0.5.1'
@@ -1783,21 +1707,8 @@ packages:
       '@swc/helpers':
         optional: true
 
-  '@rspack/lite-tapable@1.0.1':
-    resolution: {integrity: sha512-VynGOEsVw2s8TAlLf/uESfrgfrq2+rcXB1muPJYBWbsm1Oa6r5qVQhjA5ggM6z/coYPrsVMgovl3Ff7Q7OCp1w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/lite-tapable/-/lite-tapable-1.0.1.tgz}
-    engines: {node: '>=16.0.0'}
-
   '@rspack/lite-tapable@1.1.0':
     resolution: {integrity: sha512-E2B0JhYFmVAwdDiG14+DW0Di4Ze4Jg10Pc4/lILUrd5DRCaklduz2OvJ5HYQ6G+hd+WTzqQb3QnDNfK4yvAFYw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/lite-tapable/-/lite-tapable-1.1.0.tgz}
-
-  '@rspack/plugin-react-refresh@1.4.3':
-    resolution: {integrity: sha512-wZx4vWgy5oMEvgyNGd/oUKcdnKaccYWHCRkOqTdAPJC3WcytxhTX+Kady8ERurSBiLyQpoMiU3Iyd+F1Y2Arbw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/plugin-react-refresh/-/plugin-react-refresh-1.4.3.tgz}
-    peerDependencies:
-      react-refresh: '>=0.10.0 <1.0.0'
-      webpack-hot-middleware: 2.x
-    peerDependenciesMeta:
-      webpack-hot-middleware:
-        optional: true
 
   '@rspack/plugin-react-refresh@1.5.3':
     resolution: {integrity: sha512-VOnQMf3YOHkTqJ0+BJbrYga4tQAWNwoAnkgwRauXB4HOyCc5wLfBs9DcOFla/2usnRT3Sq6CMVhXmdPobwAoTA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@rspack/plugin-react-refresh/-/plugin-react-refresh-1.5.3.tgz}
@@ -1885,68 +1796,68 @@ packages:
     peerDependencies:
       '@svgr/core': '*'
 
-  '@swc/core-darwin-arm64@1.11.31':
-    resolution: {integrity: sha512-NTEaYOts0OGSbJZc0O74xsji+64JrF1stmBii6D5EevWEtrY4wlZhm8SiP/qPrOB+HqtAihxWIukWkP2aSdGSQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-darwin-arm64/-/core-darwin-arm64-1.11.31.tgz}
+  '@swc/core-darwin-arm64@1.14.0':
+    resolution: {integrity: sha512-uHPC8rlCt04nvYNczWzKVdgnRhxCa3ndKTBBbBpResOZsRmiwRAvByIGh599j+Oo6Z5eyTPrgY+XfJzVmXnN7Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-darwin-arm64/-/core-darwin-arm64-1.14.0.tgz}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@swc/core-darwin-x64@1.11.31':
-    resolution: {integrity: sha512-THSGaSwT96JwXDwuXQ6yFBbn+xDMdyw7OmBpnweAWsh5DhZmQkALEm1DgdQO3+rrE99MkmzwAfclc0UmYro/OA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-darwin-x64/-/core-darwin-x64-1.11.31.tgz}
+  '@swc/core-darwin-x64@1.14.0':
+    resolution: {integrity: sha512-2SHrlpl68vtePRknv9shvM9YKKg7B9T13tcTg9aFCwR318QTYo+FzsKGmQSv9ox/Ua0Q2/5y2BNjieffJoo4nA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-darwin-x64/-/core-darwin-x64-1.14.0.tgz}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
 
-  '@swc/core-linux-arm-gnueabihf@1.11.31':
-    resolution: {integrity: sha512-laKtQFnW7KHgE57Hx32os2SNAogcuIDxYE+3DYIOmDMqD7/1DCfJe6Rln2N9WcOw6HuDbDpyQavIwZNfSAa8vQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.11.31.tgz}
+  '@swc/core-linux-arm-gnueabihf@1.14.0':
+    resolution: {integrity: sha512-SMH8zn01dxt809svetnxpeg/jWdpi6dqHKO3Eb11u4OzU2PK7I5uKS6gf2hx5LlTbcJMFKULZiVwjlQLe8eqtg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.14.0.tgz}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
 
-  '@swc/core-linux-arm64-gnu@1.11.31':
-    resolution: {integrity: sha512-T+vGw9aPE1YVyRxRr1n7NAdkbgzBzrXCCJ95xAZc/0+WUwmL77Z+js0J5v1KKTRxw4FvrslNCOXzMWrSLdwPSA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.11.31.tgz}
+  '@swc/core-linux-arm64-gnu@1.14.0':
+    resolution: {integrity: sha512-q2JRu2D8LVqGeHkmpVCljVNltG0tB4o4eYg+dElFwCS8l2Mnt9qurMCxIeo9mgoqz0ax+k7jWtIRHktnVCbjvQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.14.0.tgz}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
 
-  '@swc/core-linux-arm64-musl@1.11.31':
-    resolution: {integrity: sha512-Mztp5NZkyd5MrOAG+kl+QSn0lL4Uawd4CK4J7wm97Hs44N9DHGIG5nOz7Qve1KZo407Y25lTxi/PqzPKHo61zQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.11.31.tgz}
+  '@swc/core-linux-arm64-musl@1.14.0':
+    resolution: {integrity: sha512-uofpVoPCEUjYIv454ZEZ3sLgMD17nIwlz2z7bsn7rl301Kt/01umFA7MscUovFfAK2IRGck6XB+uulMu6aFhKQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.14.0.tgz}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
 
-  '@swc/core-linux-x64-gnu@1.11.31':
-    resolution: {integrity: sha512-DDVE0LZcXOWwOqFU1Xi7gdtiUg3FHA0vbGb3trjWCuI1ZtDZHEQYL4M3/2FjqKZtIwASrDvO96w91okZbXhvMg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.11.31.tgz}
+  '@swc/core-linux-x64-gnu@1.14.0':
+    resolution: {integrity: sha512-quTTx1Olm05fBfv66DEBuOsOgqdypnZ/1Bh3yGXWY7ANLFeeRpCDZpljD9BSjdsNdPOlwJmEUZXMHtGm3v1TZQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.14.0.tgz}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
 
-  '@swc/core-linux-x64-musl@1.11.31':
-    resolution: {integrity: sha512-mJA1MzPPRIfaBUHZi0xJQ4vwL09MNWDeFtxXb0r4Yzpf0v5Lue9ymumcBPmw/h6TKWms+Non4+TDquAsweuKSw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.11.31.tgz}
+  '@swc/core-linux-x64-musl@1.14.0':
+    resolution: {integrity: sha512-caaNAu+aIqT8seLtCf08i8C3/UC5ttQujUjejhMcuS1/LoCKtNiUs4VekJd2UGt+pyuuSrQ6dKl8CbCfWvWeXw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.14.0.tgz}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
 
-  '@swc/core-win32-arm64-msvc@1.11.31':
-    resolution: {integrity: sha512-RdtakUkNVAb/FFIMw3LnfNdlH1/ep6KgiPDRlmyUfd0WdIQ3OACmeBegEFNFTzi7gEuzy2Yxg4LWf4IUVk8/bg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.11.31.tgz}
+  '@swc/core-win32-arm64-msvc@1.14.0':
+    resolution: {integrity: sha512-EeW3jFlT3YNckJ6V/JnTfGcX7UHGyh6/AiCPopZ1HNaGiXVCKHPpVQZicmtyr/UpqxCXLrTgjHOvyMke7YN26A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.14.0.tgz}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
 
-  '@swc/core-win32-ia32-msvc@1.11.31':
-    resolution: {integrity: sha512-hErXdCGsg7swWdG1fossuL8542I59xV+all751mYlBoZ8kOghLSKObGQTkBbuNvc0sUKWfWg1X0iBuIhAYar+w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.11.31.tgz}
+  '@swc/core-win32-ia32-msvc@1.14.0':
+    resolution: {integrity: sha512-dPai3KUIcihV5hfoO4QNQF5HAaw8+2bT7dvi8E5zLtecW2SfL3mUZipzampXq5FHll0RSCLzlrXnSx+dBRZIIQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.14.0.tgz}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
 
-  '@swc/core-win32-x64-msvc@1.11.31':
-    resolution: {integrity: sha512-5t7SGjUBMMhF9b5j17ml/f/498kiBJNf4vZFNM421UGUEETdtjPN9jZIuQrowBkoFGJTCVL/ECM4YRtTH30u/A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.11.31.tgz}
+  '@swc/core-win32-x64-msvc@1.14.0':
+    resolution: {integrity: sha512-nm+JajGrTqUA6sEHdghDlHMNfH1WKSiuvljhdmBACW4ta4LC3gKurX2qZuiBARvPkephW9V/i5S8QPY1PzFEqg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.14.0.tgz}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
 
-  '@swc/core@1.11.31':
-    resolution: {integrity: sha512-mAby9aUnKRjMEA7v8cVZS9Ah4duoRBnX7X6r5qrhTxErx+68MoY1TPrVwj/66/SWN3Bl+jijqAqoB8Qx0QE34A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core/-/core-1.11.31.tgz}
+  '@swc/core@1.14.0':
+    resolution: {integrity: sha512-oExhY90bes5pDTVrei0xlMVosTxwd/NMafIpqsC4dMbRYZ5KB981l/CX8tMnGsagTplj/RcG9BeRYmV6/J5m3w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/core/-/core-1.14.0.tgz}
     engines: {node: '>=10'}
     peerDependencies:
       '@swc/helpers': '>=0.5.17'
@@ -1960,11 +1871,99 @@ packages:
   '@swc/helpers@0.5.17':
     resolution: {integrity: sha512-5IKx/Y13RsYd+sauPb2x+U/xZikHjolzfuDgTAl/Tdf3Q8rslRvC19NKDLgAJQ6wsqADk10ntlv08nPFw/gO/A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/helpers/-/helpers-0.5.17.tgz}
 
-  '@swc/plugin-styled-components@8.0.4':
-    resolution: {integrity: sha512-Vz/C4ubzvHXK9aqUHTIOIQaU5O5ApiEA2uFjCKukIqq7/IUZvyaVoa5f+s411qMSLbEuEiVUHGFUAslwa++Exw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/plugin-styled-components/-/plugin-styled-components-8.0.4.tgz}
+  '@swc/plugin-styled-components@10.0.0':
+    resolution: {integrity: sha512-IbnTXsJMBWiexuykaQy3mDiAo9l7V3b9oC7X1pXwYdu8nIeYJIH6if86o6xxALEVc3/logRhI0mHVnc7bct3KA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/plugin-styled-components/-/plugin-styled-components-10.0.0.tgz}
 
   '@swc/types@0.1.25':
     resolution: {integrity: sha512-iAoY/qRhNH8a/hBvm3zKj9qQ4oc2+3w1unPJa2XvTK3XjeLXtzcCingVPw/9e5mn1+0yPqxcBGp9Jf0pkfMb1g==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@swc/types/-/types-0.1.25.tgz}
+
+  '@tailwindcss/node@4.1.18':
+    resolution: {integrity: sha512-DoR7U1P7iYhw16qJ49fgXUlry1t4CpXeErJHnQ44JgTSKMaZUdf17cfn5mHchfJ4KRBZRFA/Coo+MUF5+gOaCQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/node/-/node-4.1.18.tgz}
+
+  '@tailwindcss/oxide-android-arm64@4.1.18':
+    resolution: {integrity: sha512-dJHz7+Ugr9U/diKJA0W6N/6/cjI+ZTAoxPf9Iz9BFRF2GzEX8IvXxFIi/dZBloVJX/MZGvRuFA9rqwdiIEZQ0Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-android-arm64/-/oxide-android-arm64-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [android]
+
+  '@tailwindcss/oxide-darwin-arm64@4.1.18':
+    resolution: {integrity: sha512-Gc2q4Qhs660bhjyBSKgq6BYvwDz4G+BuyJ5H1xfhmDR3D8HnHCmT/BSkvSL0vQLy/nkMLY20PQ2OoYMO15Jd0A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@tailwindcss/oxide-darwin-x64@4.1.18':
+    resolution: {integrity: sha512-FL5oxr2xQsFrc3X9o1fjHKBYBMD1QZNyc1Xzw/h5Qu4XnEBi3dZn96HcHm41c/euGV+GRiXFfh2hUCyKi/e+yw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-darwin-x64/-/oxide-darwin-x64-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@tailwindcss/oxide-freebsd-x64@4.1.18':
+    resolution: {integrity: sha512-Fj+RHgu5bDodmV1dM9yAxlfJwkkWvLiRjbhuO2LEtwtlYlBgiAT4x/j5wQr1tC3SANAgD+0YcmWVrj8R9trVMA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-freebsd-x64/-/oxide-freebsd-x64-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@tailwindcss/oxide-linux-arm-gnueabihf@4.1.18':
+    resolution: {integrity: sha512-Fp+Wzk/Ws4dZn+LV2Nqx3IilnhH51YZoRaYHQsVq3RQvEl+71VGKFpkfHrLM/Li+kt5c0DJe/bHXK1eHgDmdiA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-linux-arm-gnueabihf/-/oxide-linux-arm-gnueabihf-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [linux]
+
+  '@tailwindcss/oxide-linux-arm64-gnu@4.1.18':
+    resolution: {integrity: sha512-S0n3jboLysNbh55Vrt7pk9wgpyTTPD0fdQeh7wQfMqLPM/Hrxi+dVsLsPrycQjGKEQk85Kgbx+6+QnYNiHalnw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@tailwindcss/oxide-linux-arm64-musl@4.1.18':
+    resolution: {integrity: sha512-1px92582HkPQlaaCkdRcio71p8bc8i/ap5807tPRDK/uw953cauQBT8c5tVGkOwrHMfc2Yh6UuxaH4vtTjGvHg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@tailwindcss/oxide-linux-x64-gnu@4.1.18':
+    resolution: {integrity: sha512-v3gyT0ivkfBLoZGF9LyHmts0Isc8jHZyVcbzio6Wpzifg/+5ZJpDiRiUhDLkcr7f/r38SWNe7ucxmGW3j3Kb/g==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+
+  '@tailwindcss/oxide-linux-x64-musl@4.1.18':
+    resolution: {integrity: sha512-bhJ2y2OQNlcRwwgOAGMY0xTFStt4/wyU6pvI6LSuZpRgKQwxTec0/3Scu91O8ir7qCR3AuepQKLU/kX99FouqQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+
+  '@tailwindcss/oxide-wasm32-wasi@4.1.18':
+    resolution: {integrity: sha512-LffYTvPjODiP6PT16oNeUQJzNVyJl1cjIebq/rWWBF+3eDst5JGEFSc5cWxyRCJ0Mxl+KyIkqRxk1XPEs9x8TA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.1.18.tgz}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
+    bundledDependencies:
+      - '@napi-rs/wasm-runtime'
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+      - '@tybys/wasm-util'
+      - '@emnapi/wasi-threads'
+      - tslib
+
+  '@tailwindcss/oxide-win32-arm64-msvc@4.1.18':
+    resolution: {integrity: sha512-HjSA7mr9HmC8fu6bdsZvZ+dhjyGCLdotjVOgLA2vEqxEBZaQo9YTX4kwgEvPCpRh8o4uWc4J/wEoFzhEmjvPbA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-win32-arm64-msvc/-/oxide-win32-arm64-msvc-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@tailwindcss/oxide-win32-x64-msvc@4.1.18':
+    resolution: {integrity: sha512-bJWbyYpUlqamC8dpR7pfjA0I7vdF6t5VpUGMWRkXVE3AXgIZjYUYAK7II1GNaxR8J1SSrSrppRar8G++JekE3Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.1.18.tgz}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+
+  '@tailwindcss/oxide@4.1.18':
+    resolution: {integrity: sha512-EgCR5tTS5bUSKQgzeMClT6iCY3ToqE1y+ZB0AKldj809QXk1Y+3jB0upOYZrn9aGIzPtUsP7sX4QQ4XtjBB95A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/oxide/-/oxide-4.1.18.tgz}
+    engines: {node: '>= 10'}
+
+  '@tailwindcss/postcss@4.1.18':
+    resolution: {integrity: sha512-Ce0GFnzAOuPyfV5SxjXGn0CubwGcuDB0zcdaPuCSzAa/2vII24JTkH+I6jcbXLb1ctjZMZZI6OjDaLPJQL1S0g==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tailwindcss/postcss/-/postcss-4.1.18.tgz}
 
   '@tanstack/react-virtual@3.13.13':
     resolution: {integrity: sha512-4o6oPMDvQv+9gMi8rE6gWmsOjtUZUYIJHv7EB+GblyYdi8U6OqLl8rhHWIUZSL1dUU2dPwTdTgybCKf9EjIrQg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/@tanstack/react-virtual/-/react-virtual-3.13.13.tgz}
@@ -2169,6 +2168,10 @@ packages:
     engines: {node: '>=10.13.0'}
     peerDependencies:
       acorn: ^8.14.0
+
+  acorn-loose@8.5.2:
+    resolution: {integrity: sha512-PPvV6g8UGMGgjrMu+n/f9E/tCSkNQ2Y97eFvuVdJfG11+xdIeDcLyNdC8SHcrHbRqkfwLASdplyR6B6sKM1U4A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/acorn-loose/-/acorn-loose-8.5.2.tgz}
+    engines: {node: '>=0.4.0'}
 
   acorn@7.4.1:
     resolution: {integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/acorn/-/acorn-7.4.1.tgz}
@@ -2662,8 +2665,8 @@ packages:
   core-js@3.40.0:
     resolution: {integrity: sha512-7vsMc/Lty6AGnn7uFpYT56QesI5D2Y/UkgKounk87OP9Z2H9Z8kj6jzcSGAxFmUtDOS0ntK6lbQz+Nsa0Jj6mQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/core-js/-/core-js-3.40.0.tgz}
 
-  core-js@3.44.0:
-    resolution: {integrity: sha512-aFCtd4l6GvAXwVEh3XbbVqJGHDJt0OZRa+5ePGx3LLwi12WfexqQxcsohb2wgsa/92xtl19Hd66G/L+TaAxDMw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/core-js/-/core-js-3.44.0.tgz}
+  core-js@3.47.0:
+    resolution: {integrity: sha512-c3Q2VVkGAUyupsjRnaNX6u8Dq2vAdzm9iuPj5FW0fRxzlxgq9Q39MDq10IvmQSpLgHQNyQzQmOo6bgGHmH3NNg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/core-js/-/core-js-3.47.0.tgz}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/core-util-is/-/core-util-is-1.0.3.tgz}
@@ -2712,9 +2715,9 @@ packages:
     peerDependencies:
       postcss: ^8.0.9
 
-  css-minimizer-webpack-plugin@5.0.1:
-    resolution: {integrity: sha512-3caImjKFQkS+ws1TGcFn0V1HyDJFq1Euy589JlD6/3rV2kj+w7r5G9WDMgSHvpvXHNZ2calVypZWuEDQd9wfLg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/css-minimizer-webpack-plugin/-/css-minimizer-webpack-plugin-5.0.1.tgz}
-    engines: {node: '>= 14.15.0'}
+  css-minimizer-webpack-plugin@7.0.2:
+    resolution: {integrity: sha512-nBRWZtI77PBZQgcXMNqiIXVshiQOVLGSf2qX/WZfG8IQfMbeHUMXaBWQmiiSTmPJUflQxHjZjzAmuyO7tpL2Jg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/css-minimizer-webpack-plugin/-/css-minimizer-webpack-plugin-7.0.2.tgz}
+    engines: {node: '>= 18.12.0'}
     peerDependencies:
       '@parcel/css': '*'
       '@swc/css': '*'
@@ -2754,6 +2757,10 @@ packages:
     resolution: {integrity: sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/css-tree/-/css-tree-2.3.1.tgz}
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
 
+  css-tree@3.1.0:
+    resolution: {integrity: sha512-0eW44TGN5SQXU1mWSkKwFstI/22X2bG1nYzZTYMAWjylYURhse752YgbE4Cx46AC+bAvI+/dYTPRk1LqSUnu6w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/css-tree/-/css-tree-3.1.0.tgz}
+    engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
+
   css-what@6.2.2:
     resolution: {integrity: sha512-u/O3vwbptzhMs3L1fQE82ZSLHQQfto5gyZzwteVIEyeaY5Fc7R4dapF/BvRoSYFeqfBk4m0V1Vafq5Pjv25wvA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/css-what/-/css-what-6.2.2.tgz}
     engines: {node: '>= 6'}
@@ -2769,17 +2776,35 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  cssnano-preset-default@7.0.10:
+    resolution: {integrity: sha512-6ZBjW0Lf1K1Z+0OKUAUpEN62tSXmYChXWi2NAA0afxEVsj9a+MbcB1l5qel6BHJHmULai2fCGRthCeKSFbScpA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/cssnano-preset-default/-/cssnano-preset-default-7.0.10.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   cssnano-utils@4.0.2:
     resolution: {integrity: sha512-ZR1jHg+wZ8o4c3zqf1SIUSTIvm/9mU343FMR6Obe/unskbvpGhZOo1J6d/r8D1pzkRQYuwbcH3hToOuoA2G7oQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/cssnano-utils/-/cssnano-utils-4.0.2.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
 
+  cssnano-utils@5.0.1:
+    resolution: {integrity: sha512-ZIP71eQgG9JwjVZsTPSqhc6GHgEr53uJ7tK5///VfyWj6Xp2DBmixWHqJgPno+PqATzn48pL42ww9x5SSGmhZg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/cssnano-utils/-/cssnano-utils-5.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   cssnano@6.1.2:
     resolution: {integrity: sha512-rYk5UeX7VAM/u0lNqewCdasdtPK81CgX8wJFLEIXHbV2oldWRgJAsZrdhRXkV1NJzA2g850KiFm9mMU2HxNxMA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/cssnano/-/cssnano-6.1.2.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  cssnano@7.1.2:
+    resolution: {integrity: sha512-HYOPBsNvoiFeR1eghKD5C3ASm64v9YVyJB4Ivnl2gqKoQYvjjN/G0rztvKQq8OxocUtC6sjqY8jwYngIB4AByA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/cssnano/-/cssnano-7.1.2.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   csso@5.0.5:
     resolution: {integrity: sha512-0LrrStPOdJj+SPCCrGhzryycLjwcgUSHBtxNA8aIDxf0GLsRh1cKYhB00Gd1lDOS4yGH69+SNn13+TWbVHETFQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/csso/-/csso-5.0.5.tgz}
@@ -3315,18 +3340,6 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
 
-  html-webpack-plugin@5.6.3:
-    resolution: {integrity: sha512-QSf1yjtSAsmf7rYBV7XX86uua4W/vkhIt0xNXKbsi2foEeW7vjJQz4bhnpL3xH+l1ryl1680uNv968Z+X6jSYg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/html-webpack-plugin/-/html-webpack-plugin-5.6.3.tgz}
-    engines: {node: '>=10.13.0'}
-    peerDependencies:
-      '@rspack/core': 0.x || 1.x
-      webpack: ^5.20.0
-    peerDependenciesMeta:
-      '@rspack/core':
-        optional: true
-      webpack:
-        optional: true
-
   html-webpack-plugin@5.6.4:
     resolution: {integrity: sha512-V/PZeWsqhfpE27nKeX9EO2sbR+D17A+tLf6qU+ht66jdUsN0QLKJN27Z+1+gHrVMKgndBahes0PU6rRihDgHTw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/html-webpack-plugin/-/html-webpack-plugin-5.6.4.tgz}
     engines: {node: '>=10.13.0'}
@@ -3597,6 +3610,76 @@ packages:
     resolution: {integrity: sha512-MeuwbCoN1daWS32/Ni5qkzmrOtQO2qrnfdxDHjrm6s4b59yG4nexAJ0pTEFyzjLp0pBVO80CZp0vW8Ze30Ebow==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/koa/-/koa-3.0.3.tgz}
     engines: {node: '>= 18'}
 
+  lightningcss-android-arm64@1.30.2:
+    resolution: {integrity: sha512-BH9sEdOCahSgmkVhBLeU7Hc9DWeZ1Eb6wNS6Da8igvUwAe0sqROHddIlvU06q3WyXVEOYDZ6ykBZQnjTbmo4+A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-android-arm64/-/lightningcss-android-arm64-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [android]
+
+  lightningcss-darwin-arm64@1.30.2:
+    resolution: {integrity: sha512-ylTcDJBN3Hp21TdhRT5zBOIi73P6/W0qwvlFEk22fkdXchtNTOU4Qc37SkzV+EKYxLouZ6M4LG9NfZ1qkhhBWA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  lightningcss-darwin-x64@1.30.2:
+    resolution: {integrity: sha512-oBZgKchomuDYxr7ilwLcyms6BCyLn0z8J0+ZZmfpjwg9fRVZIR5/GMXd7r9RH94iDhld3UmSjBM6nXWM2TfZTQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  lightningcss-freebsd-x64@1.30.2:
+    resolution: {integrity: sha512-c2bH6xTrf4BDpK8MoGG4Bd6zAMZDAXS569UxCAGcA7IKbHNMlhGQ89eRmvpIUGfKWNVdbhSbkQaWhEoMGmGslA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [freebsd]
+
+  lightningcss-linux-arm-gnueabihf@1.30.2:
+    resolution: {integrity: sha512-eVdpxh4wYcm0PofJIZVuYuLiqBIakQ9uFZmipf6LF/HRj5Bgm0eb3qL/mr1smyXIS1twwOxNWndd8z0E374hiA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm]
+    os: [linux]
+
+  lightningcss-linux-arm64-gnu@1.30.2:
+    resolution: {integrity: sha512-UK65WJAbwIJbiBFXpxrbTNArtfuznvxAJw4Q2ZGlU8kPeDIWEX1dg3rn2veBVUylA2Ezg89ktszWbaQnxD/e3A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  lightningcss-linux-arm64-musl@1.30.2:
+    resolution: {integrity: sha512-5Vh9dGeblpTxWHpOx8iauV02popZDsCYMPIgiuw97OJ5uaDsL86cnqSFs5LZkG3ghHoX5isLgWzMs+eD1YzrnA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  lightningcss-linux-x64-gnu@1.30.2:
+    resolution: {integrity: sha512-Cfd46gdmj1vQ+lR6VRTTadNHu6ALuw2pKR9lYq4FnhvgBc4zWY1EtZcAc6EffShbb1MFrIPfLDXD6Xprbnni4w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [linux]
+
+  lightningcss-linux-x64-musl@1.30.2:
+    resolution: {integrity: sha512-XJaLUUFXb6/QG2lGIW6aIk6jKdtjtcffUT0NKvIqhSBY3hh9Ch+1LCeH80dR9q9LBjG3ewbDjnumefsLsP6aiA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [linux]
+
+  lightningcss-win32-arm64-msvc@1.30.2:
+    resolution: {integrity: sha512-FZn+vaj7zLv//D/192WFFVA0RgHawIcHqLX9xuWiQt7P0PtdFEVaxgF9rjM/IRYHQXNnk61/H/gb2Ei+kUQ4xQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  lightningcss-win32-x64-msvc@1.30.2:
+    resolution: {integrity: sha512-5g1yc73p+iAkid5phb4oVFMB45417DkRevRbt/El/gKXJk4jid+vPFF/AXbxn05Aky8PapwzZrdJShv5C0avjw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [win32]
+
+  lightningcss@1.30.2:
+    resolution: {integrity: sha512-utfs7Pr5uJyyvDETitgsaqSyjCb2qNRAtuqUeWIAKztsOYdcACf2KtARYXg2pSvhkt+9NfoaNY7fxjl6nuMjIQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lightningcss/-/lightningcss-1.30.2.tgz}
+    engines: {node: '>= 12.0.0'}
+
   lilconfig@2.1.0:
     resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/lilconfig/-/lilconfig-2.1.0.tgz}
     engines: {node: '>=10'}
@@ -3692,6 +3775,9 @@ packages:
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/magic-string/-/magic-string-0.30.17.tgz}
 
+  magic-string@0.30.21:
+    resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/magic-string/-/magic-string-0.30.21.tgz}
+
   make-dir@2.1.0:
     resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/make-dir/-/make-dir-2.1.0.tgz}
     engines: {node: '>=6'}
@@ -3712,6 +3798,9 @@ packages:
 
   mdn-data@2.0.30:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/mdn-data/-/mdn-data-2.0.30.tgz}
+
+  mdn-data@2.12.2:
+    resolution: {integrity: sha512-IEn+pegP1aManZuckezWCO+XZQDplx1366JoVhTpMpBB1sPey/SbveZQUosKiKiGYjg1wH4pMlNgXbCiYgihQA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/mdn-data/-/mdn-data-2.12.2.tgz}
 
   media-typer@1.1.0:
     resolution: {integrity: sha512-aisnrDP4GNe06UcKFnV5bfMNPBUw4jsLGaWwWfnH3v02GnBuXX2MCVn5RbrWo0j3pczUilYblq7fQ7Nw2t5XKw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/media-typer/-/media-typer-1.1.0.tgz}
@@ -3759,8 +3848,8 @@ packages:
     resolution: {integrity: sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/mimic-fn/-/mimic-fn-4.0.0.tgz}
     engines: {node: '>=12'}
 
-  mini-css-extract-plugin@2.9.2:
-    resolution: {integrity: sha512-GJuACcS//jtq4kCtd5ii/M0SZf7OZRH+BxdqXZHaJfb8TJiVl+NgQRPwiYt2EuqeSkNydn/7vP+bcE27C5mb9w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/mini-css-extract-plugin/-/mini-css-extract-plugin-2.9.2.tgz}
+  mini-css-extract-plugin@2.9.4:
+    resolution: {integrity: sha512-ZWYT7ln73Hptxqxk2DxPU9MmapXRhxkJD6tkSR04dnQxm8BGu2hzgKLugK5yySD97u/8yy7Ma7E76k9ZdvtjkQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/mini-css-extract-plugin/-/mini-css-extract-plugin-2.9.4.tgz}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
@@ -4109,6 +4198,12 @@ packages:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/possible-typed-array-names/-/possible-typed-array-names-1.1.0.tgz}
     engines: {node: '>= 0.4'}
 
+  postcss-calc@10.1.1:
+    resolution: {integrity: sha512-NYEsLHh8DgG/PRH2+G9BTuUdtf9ViS+vdoQ0YA5OQdGsfN4ztiwtDWNtBl9EKeqNMFnIu8IKZ0cLxEQ5r5KVMw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-calc/-/postcss-calc-10.1.1.tgz}
+    engines: {node: ^18.12 || ^20.9 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.38
+
   postcss-calc@9.0.1:
     resolution: {integrity: sha512-TipgjGyzP5QzEhsOZUaIkeO5mKeMFpebWzRogWG/ysonUlnHcq5aJe0jOjpfzUU8PeSaBQnrE8ehR0QA5vs8PQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-calc/-/postcss-calc-9.0.1.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
@@ -4121,11 +4216,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-colormin@7.0.5:
+    resolution: {integrity: sha512-ekIBP/nwzRWhEMmIxHHbXHcMdzd1HIUzBECaj5KEdLz9DVP2HzT065sEhvOx1dkLjYW7jyD0CngThx6bpFi2fA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-colormin/-/postcss-colormin-7.0.5.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-convert-values@6.1.0:
     resolution: {integrity: sha512-zx8IwP/ts9WvUM6NkVSkiU902QZL1bwPhaVaLynPtCsOTqp+ZKbNi+s6XJg3rfqpKGA/oc7Oxk5t8pOQJcwl/w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-convert-values/-/postcss-convert-values-6.1.0.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-convert-values@7.0.8:
+    resolution: {integrity: sha512-+XNKuPfkHTCEo499VzLMYn94TiL3r9YqRE3Ty+jP7UX4qjewUONey1t7CG21lrlTLN07GtGM8MqFVp86D4uKJg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-convert-values/-/postcss-convert-values-7.0.8.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-custom-properties@13.3.12:
     resolution: {integrity: sha512-oPn/OVqONB2ZLNqN185LDyaVByELAA/u3l2CS2TS16x2j2XsmV4kd8U49+TMxmUsEU9d8fB/I10E6U7kB0L1BA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-custom-properties/-/postcss-custom-properties-13.3.12.tgz}
@@ -4139,11 +4246,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-discard-comments@7.0.5:
+    resolution: {integrity: sha512-IR2Eja8WfYgN5n32vEGSctVQ1+JARfu4UH8M7bgGh1bC+xI/obsPJXaBpQF7MAByvgwZinhpHpdrmXtvVVlKcQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-discard-comments/-/postcss-discard-comments-7.0.5.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-discard-duplicates@6.0.3:
     resolution: {integrity: sha512-+JA0DCvc5XvFAxwx6f/e68gQu/7Z9ud584VLmcgto28eB8FqSFZwtrLwB5Kcp70eIoWP/HXqz4wpo8rD8gpsTw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-discard-duplicates/-/postcss-discard-duplicates-6.0.3.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-discard-duplicates@7.0.2:
+    resolution: {integrity: sha512-eTonaQvPZ/3i1ASDHOKkYwAybiM45zFIc7KXils4mQmHLqIswXD9XNOKEVxtTFnsmwYzF66u4LMgSr0abDlh5w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-discard-duplicates/-/postcss-discard-duplicates-7.0.2.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-discard-empty@6.0.3:
     resolution: {integrity: sha512-znyno9cHKQsK6PtxL5D19Fj9uwSzC2mB74cpT66fhgOadEUPyXFkbgwm5tvc3bt3NAy8ltE5MrghxovZRVnOjQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-discard-empty/-/postcss-discard-empty-6.0.3.tgz}
@@ -4151,11 +4270,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-discard-empty@7.0.1:
+    resolution: {integrity: sha512-cFrJKZvcg/uxB6Ijr4l6qmn3pXQBna9zyrPC+sK0zjbkDUZew+6xDltSF7OeB7rAtzaaMVYSdbod+sZOCWnMOg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-discard-empty/-/postcss-discard-empty-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-discard-overridden@6.0.2:
     resolution: {integrity: sha512-j87xzI4LUggC5zND7KdjsI25APtyMuynXZSujByMaav2roV6OZX+8AaCUcZSWqckZpjAjRyFDdpqybgjFO0HJQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-discard-overridden/-/postcss-discard-overridden-6.0.2.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-discard-overridden@7.0.1:
+    resolution: {integrity: sha512-7c3MMjjSZ/qYrx3uc1940GSOzN1Iqjtlqe8uoSg+qdVPYyRb0TILSqqmtlSFuE4mTDECwsm397Ya7iXGzfF7lg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-discard-overridden/-/postcss-discard-overridden-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-flexbugs-fixes@5.0.2:
     resolution: {integrity: sha512-18f9voByak7bTktR2QgDveglpn9DTbBWPUzSOe9g0N4WR/2eSt6Vrcbf0hmspvMI6YWGywz6B9f7jzpFNJJgnQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-5.0.2.tgz}
@@ -4184,11 +4315,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-merge-longhand@7.0.5:
+    resolution: {integrity: sha512-Kpu5v4Ys6QI59FxmxtNB/iHUVDn9Y9sYw66D6+SZoIk4QTz1prC4aYkhIESu+ieG1iylod1f8MILMs1Em3mmIw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-merge-longhand/-/postcss-merge-longhand-7.0.5.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-merge-rules@6.1.1:
     resolution: {integrity: sha512-KOdWF0gju31AQPZiD+2Ar9Qjowz1LTChSjFFbS+e2sFgc4uHOp3ZvVX4sNeTlk0w2O31ecFGgrFzhO0RSWbWwQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-merge-rules/-/postcss-merge-rules-6.1.1.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-merge-rules@7.0.7:
+    resolution: {integrity: sha512-njWJrd/Ms6XViwowaaCc+/vqhPG3SmXn725AGrnl+BgTuRPEacjiLEaGq16J6XirMJbtKkTwnt67SS+e2WGoew==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-merge-rules/-/postcss-merge-rules-7.0.7.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-minify-font-values@6.1.0:
     resolution: {integrity: sha512-gklfI/n+9rTh8nYaSJXlCo3nOKqMNkxuGpTn/Qm0gstL3ywTr9/WRKznE+oy6fvfolH6dF+QM4nCo8yPLdvGJg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-minify-font-values/-/postcss-minify-font-values-6.1.0.tgz}
@@ -4196,11 +4339,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-minify-font-values@7.0.1:
+    resolution: {integrity: sha512-2m1uiuJeTplll+tq4ENOQSzB8LRnSUChBv7oSyFLsJRtUgAAJGP6LLz0/8lkinTgxrmJSPOEhgY1bMXOQ4ZXhQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-minify-font-values/-/postcss-minify-font-values-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-minify-gradients@6.0.3:
     resolution: {integrity: sha512-4KXAHrYlzF0Rr7uc4VrfwDJ2ajrtNEpNEuLxFgwkhFZ56/7gaE4Nr49nLsQDZyUe+ds+kEhf+YAUolJiYXF8+Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-minify-gradients/-/postcss-minify-gradients-6.0.3.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-minify-gradients@7.0.1:
+    resolution: {integrity: sha512-X9JjaysZJwlqNkJbUDgOclyG3jZEpAMOfof6PUZjPnPrePnPG62pS17CjdM32uT1Uq1jFvNSff9l7kNbmMSL2A==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-minify-gradients/-/postcss-minify-gradients-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-minify-params@6.1.0:
     resolution: {integrity: sha512-bmSKnDtyyE8ujHQK0RQJDIKhQ20Jq1LYiez54WiaOoBtcSuflfK3Nm596LvbtlFcpipMjgClQGyGr7GAs+H1uA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-minify-params/-/postcss-minify-params-6.1.0.tgz}
@@ -4208,11 +4363,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-minify-params@7.0.5:
+    resolution: {integrity: sha512-FGK9ky02h6Ighn3UihsyeAH5XmLEE2MSGH5Tc4tXMFtEDx7B+zTG6hD/+/cT+fbF7PbYojsmmWjyTwFwW1JKQQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-minify-params/-/postcss-minify-params-7.0.5.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-minify-selectors@6.0.4:
     resolution: {integrity: sha512-L8dZSwNLgK7pjTto9PzWRoMbnLq5vsZSTu8+j1P/2GB8qdtGQfn+K1uSvFgYvgh83cbyxT5m43ZZhUMTJDSClQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-minify-selectors/-/postcss-minify-selectors-6.0.4.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-minify-selectors@7.0.5:
+    resolution: {integrity: sha512-x2/IvofHcdIrAm9Q+p06ZD1h6FPcQ32WtCRVodJLDR+WMn8EVHI1kvLxZuGKz/9EY5nAmI6lIQIrpo4tBy5+ug==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-minify-selectors/-/postcss-minify-selectors-7.0.5.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-nesting@12.1.5:
     resolution: {integrity: sha512-N1NgI1PDCiAGWPTYrwqm8wpjv0bgDmkYHH72pNsqTCv9CObxjxftdYu6AKtGN+pnJa7FQjMm3v4sp8QJbFsYdQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-nesting/-/postcss-nesting-12.1.5.tgz}
@@ -4226,11 +4393,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-normalize-charset@7.0.1:
+    resolution: {integrity: sha512-sn413ofhSQHlZFae//m9FTOfkmiZ+YQXsbosqOWRiVQncU2BA3daX3n0VF3cG6rGLSFVc5Di/yns0dFfh8NFgQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-charset/-/postcss-normalize-charset-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-normalize-display-values@6.0.2:
     resolution: {integrity: sha512-8H04Mxsb82ON/aAkPeq8kcBbAtI5Q2a64X/mnRRfPXBq7XeogoQvReqxEfc0B4WPq1KimjezNC8flUtC3Qz6jg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-display-values/-/postcss-normalize-display-values-6.0.2.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-normalize-display-values@7.0.1:
+    resolution: {integrity: sha512-E5nnB26XjSYz/mGITm6JgiDpAbVuAkzXwLzRZtts19jHDUBFxZ0BkXAehy0uimrOjYJbocby4FVswA/5noOxrQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-display-values/-/postcss-normalize-display-values-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-normalize-positions@6.0.2:
     resolution: {integrity: sha512-/JFzI441OAB9O7VnLA+RtSNZvQ0NCFZDOtp6QPFo1iIyawyXg0YI3CYM9HBy1WvwCRHnPep/BvI1+dGPKoXx/Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-positions/-/postcss-normalize-positions-6.0.2.tgz}
@@ -4238,11 +4417,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-normalize-positions@7.0.1:
+    resolution: {integrity: sha512-pB/SzrIP2l50ZIYu+yQZyMNmnAcwyYb9R1fVWPRxm4zcUFCY2ign7rcntGFuMXDdd9L2pPNUgoODDk91PzRZuQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-positions/-/postcss-normalize-positions-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-normalize-repeat-style@6.0.2:
     resolution: {integrity: sha512-YdCgsfHkJ2jEXwR4RR3Tm/iOxSfdRt7jplS6XRh9Js9PyCR/aka/FCb6TuHT2U8gQubbm/mPmF6L7FY9d79VwQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-6.0.2.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-normalize-repeat-style@7.0.1:
+    resolution: {integrity: sha512-NsSQJ8zj8TIDiF0ig44Byo3Jk9e4gNt9x2VIlJudnQQ5DhWAHJPF4Tr1ITwyHio2BUi/I6Iv0HRO7beHYOloYQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-normalize-string@6.0.2:
     resolution: {integrity: sha512-vQZIivlxlfqqMp4L9PZsFE4YUkWniziKjQWUtsxUiVsSSPelQydwS8Wwcuw0+83ZjPWNTl02oxlIvXsmmG+CiQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-string/-/postcss-normalize-string-6.0.2.tgz}
@@ -4250,11 +4441,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-normalize-string@7.0.1:
+    resolution: {integrity: sha512-QByrI7hAhsoze992kpbMlJSbZ8FuCEc1OT9EFbZ6HldXNpsdpZr+YXC5di3UEv0+jeZlHbZcoCADgb7a+lPmmQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-string/-/postcss-normalize-string-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-normalize-timing-functions@6.0.2:
     resolution: {integrity: sha512-a+YrtMox4TBtId/AEwbA03VcJgtyW4dGBizPl7e88cTFULYsprgHWTbfyjSLyHeBcK/Q9JhXkt2ZXiwaVHoMzA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-timing-functions/-/postcss-normalize-timing-functions-6.0.2.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-normalize-timing-functions@7.0.1:
+    resolution: {integrity: sha512-bHifyuuSNdKKsnNJ0s8fmfLMlvsQwYVxIoUBnowIVl2ZAdrkYQNGVB4RxjfpvkMjipqvbz0u7feBZybkl/6NJg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-timing-functions/-/postcss-normalize-timing-functions-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-normalize-unicode@6.1.0:
     resolution: {integrity: sha512-QVC5TQHsVj33otj8/JD869Ndr5Xcc/+fwRh4HAsFsAeygQQXm+0PySrKbr/8tkDKzW+EVT3QkqZMfFrGiossDg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-unicode/-/postcss-normalize-unicode-6.1.0.tgz}
@@ -4262,11 +4465,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-normalize-unicode@7.0.5:
+    resolution: {integrity: sha512-X6BBwiRxVaFHrb2WyBMddIeB5HBjJcAaUHyhLrM2FsxSq5TFqcHSsK7Zu1otag+o0ZphQGJewGH1tAyrD0zX1Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-unicode/-/postcss-normalize-unicode-7.0.5.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-normalize-url@6.0.2:
     resolution: {integrity: sha512-kVNcWhCeKAzZ8B4pv/DnrU1wNh458zBNp8dh4y5hhxih5RZQ12QWMuQrDgPRw3LRl8mN9vOVfHl7uhvHYMoXsQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-url/-/postcss-normalize-url-6.0.2.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-normalize-url@7.0.1:
+    resolution: {integrity: sha512-sUcD2cWtyK1AOL/82Fwy1aIVm/wwj5SdZkgZ3QiUzSzQQofrbq15jWJ3BA7Z+yVRwamCjJgZJN0I9IS7c6tgeQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-url/-/postcss-normalize-url-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-normalize-whitespace@6.0.2:
     resolution: {integrity: sha512-sXZ2Nj1icbJOKmdjXVT9pnyHQKiSAyuNQHSgRCUgThn2388Y9cGVDR+E9J9iAYbSbLHI+UUwLVl1Wzco/zgv0Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-whitespace/-/postcss-normalize-whitespace-6.0.2.tgz}
@@ -4274,11 +4489,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-normalize-whitespace@7.0.1:
+    resolution: {integrity: sha512-vsbgFHMFQrJBJKrUFJNZ2pgBeBkC2IvvoHjz1to0/0Xk7sII24T0qFOiJzG6Fu3zJoq/0yI4rKWi7WhApW+EFA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-normalize-whitespace/-/postcss-normalize-whitespace-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-ordered-values@6.0.2:
     resolution: {integrity: sha512-VRZSOB+JU32RsEAQrO94QPkClGPKJEL/Z9PCBImXMhIeK5KAYo6slP/hBYlLgrCjFxyqvn5VC81tycFEDBLG1Q==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-ordered-values/-/postcss-ordered-values-6.0.2.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-ordered-values@7.0.2:
+    resolution: {integrity: sha512-AMJjt1ECBffF7CEON/Y0rekRLS6KsePU6PRP08UqYW4UGFRnTXNrByUzYK1h8AC7UWTZdQ9O3Oq9kFIhm0SFEw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-ordered-values/-/postcss-ordered-values-7.0.2.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-page-break@3.0.4:
     resolution: {integrity: sha512-1JGu8oCjVXLa9q9rFTo4MbeeA5FMe00/9C7lN4va606Rdb+HkxXtXsmEDrIraQ11fGz/WvKWa8gMuCKkrXpTsQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-page-break/-/postcss-page-break-3.0.4.tgz}
@@ -4291,14 +4518,30 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-reduce-initial@7.0.5:
+    resolution: {integrity: sha512-RHagHLidG8hTZcnr4FpyMB2jtgd/OcyAazjMhoy5qmWJOx1uxKh4ntk0Pb46ajKM0rkf32lRH4C8c9qQiPR6IA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-reduce-initial/-/postcss-reduce-initial-7.0.5.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-reduce-transforms@6.0.2:
     resolution: {integrity: sha512-sB+Ya++3Xj1WaT9+5LOOdirAxP7dJZms3GRcYheSPi1PiTMigsxHAdkrbItHxwYHr4kt1zL7mmcHstgMYT+aiA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-reduce-transforms/-/postcss-reduce-transforms-6.0.2.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-reduce-transforms@7.0.1:
+    resolution: {integrity: sha512-MhyEbfrm+Mlp/36hvZ9mT9DaO7dbncU0CvWI8V93LRkY6IYlu38OPg3FObnuKTUxJ4qA8HpurdQOo5CyqqO76g==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-reduce-transforms/-/postcss-reduce-transforms-7.0.1.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-selector-parser@6.1.2:
     resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz}
+    engines: {node: '>=4'}
+
+  postcss-selector-parser@7.1.1:
+    resolution: {integrity: sha512-orRsuYpJVw8LdAwqqLykBj9ecS5/cRHlI5+nvTo8LcCKmzDmqVORXtOIYEEQuL9D4BxtA1lm5isAqzQZCoQ6Eg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-selector-parser/-/postcss-selector-parser-7.1.1.tgz}
     engines: {node: '>=4'}
 
   postcss-svgo@6.0.3:
@@ -4307,11 +4550,23 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  postcss-svgo@7.1.0:
+    resolution: {integrity: sha512-KnAlfmhtoLz6IuU3Sij2ycusNs4jPW+QoFE5kuuUOK8awR6tMxZQrs5Ey3BUz7nFCzT3eqyFgqkyrHiaU2xx3w==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-svgo/-/postcss-svgo-7.1.0.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >= 18}
+    peerDependencies:
+      postcss: ^8.4.32
+
   postcss-unique-selectors@6.0.4:
     resolution: {integrity: sha512-K38OCaIrO8+PzpArzkLKB42dSARtC2tmG6PvD4b1o1Q2E9Os8jzfWFfSy/rixsHwohtsDdFtAWGjFVFUdwYaMg==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-unique-selectors/-/postcss-unique-selectors-6.0.4.tgz}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
+
+  postcss-unique-selectors@7.0.4:
+    resolution: {integrity: sha512-pmlZjsmEAG7cHd7uK3ZiNSW6otSZ13RHuZ/4cDN/bVglS5EpF2r2oxY99SuOHa8m7AWoBCelTS3JPpzsIs8skQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-unique-selectors/-/postcss-unique-selectors-7.0.4.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
 
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz}
@@ -4437,10 +4692,6 @@ packages:
     resolution: {integrity: sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/react-refresh/-/react-refresh-0.14.2.tgz}
     engines: {node: '>=0.10.0'}
 
-  react-refresh@0.17.0:
-    resolution: {integrity: sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/react-refresh/-/react-refresh-0.17.0.tgz}
-    engines: {node: '>=0.10.0'}
-
   react-refresh@0.18.0:
     resolution: {integrity: sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/react-refresh/-/react-refresh-0.18.0.tgz}
     engines: {node: '>=0.10.0'}
@@ -4457,6 +4708,14 @@ packages:
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
+
+  react-server-dom-webpack@19.2.3:
+    resolution: {integrity: sha512-ifo7aqqdNJyV6U2zuvvWX4rRQ51pbleuUFNG7ZYhIuSuWZzQPbfmYv11GNsyJm/3uGNbt8buJ9wmoISn/uOAfw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/react-server-dom-webpack/-/react-server-dom-webpack-19.2.3.tgz}
+    engines: {node: '>=0.10.0'}
+    peerDependencies:
+      react: ^19.2.3
+      react-dom: ^19.2.3
+      webpack: ^5.59.0
 
   react-side-effect@2.1.2:
     resolution: {integrity: sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/react-side-effect/-/react-side-effect-2.1.2.tgz}
@@ -4712,6 +4971,9 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
+  sax@1.4.3:
+    resolution: {integrity: sha512-yqYn1JhPczigF94DMS+shiDMjDowYO6y9+wB/4WgO0Y19jWYk0lQ4tuG5KI7kj4FTp1wxPj5IFfcrz/s1c3jjQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/sax/-/sax-1.4.3.tgz}
+
   scheduler@0.23.2:
     resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/scheduler/-/scheduler-0.23.2.tgz}
 
@@ -4913,6 +5175,12 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
+  stylehacks@7.0.7:
+    resolution: {integrity: sha512-bJkD0JkEtbRrMFtwgpJyBbFIwfDDONQ1Ov3sDLZQP8HuJ73kBOyx66H4bOcAbVWmnfLdvQ0AJwXxOMkpujcO6g==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/stylehacks/-/stylehacks-7.0.7.tgz}
+    engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
+    peerDependencies:
+      postcss: ^8.4.32
+
   supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/supports-color/-/supports-color-5.5.0.tgz}
     engines: {node: '>=4'}
@@ -4939,6 +5207,11 @@ packages:
   svgo@3.3.2:
     resolution: {integrity: sha512-OoohrmuUlBs8B8o6MB2Aevn+pRIH9zDALSR+6hhqVfa6fRwG/Qw9VUMSMW9VNg2CFc/MTIfabtdOVl9ODIJjpw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/svgo/-/svgo-3.3.2.tgz}
     engines: {node: '>=14.0.0'}
+    hasBin: true
+
+  svgo@4.0.0:
+    resolution: {integrity: sha512-VvrHQ+9uniE+Mvx3+C9IEe/lWasXCU0nXMY2kZeLrHNICuRiC8uMPyM14UEaMOFA5mhyQqEkB02VoQ16n3DLaw==, tarball: https://artifactory.rbx.com/artifactory/api/npm/npm-all/svgo/-/svgo-4.0.0.tgz}
+    engines: {node: '>=16'}
     hasBin: true
 
   sync-child-process@1.0.2:
@@ -5287,6 +5560,8 @@ packages:
     engines: {node: '>=12.20'}
 
 snapshots:
+
+  '@alloc/quick-lru@5.2.0': {}
 
   '@babel/code-frame@7.27.1':
     dependencies:
@@ -6411,27 +6686,27 @@ snapshots:
       - encoding
       - supports-color
 
-  '@modern-js/app-tools@2.68.7(@rspack/core@1.6.7(@swc/helpers@0.5.17))(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.28.5)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))(tsconfig-paths@4.2.0)(type-fest@0.21.3)(typescript@5.0.4)':
+  '@modern-js/app-tools@2.69.5(@rspack/core@1.6.8(@swc/helpers@0.5.17))(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.28.5)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))(tsconfig-paths@4.2.0)(type-fest@0.21.3)(typescript@5.0.4)':
     dependencies:
       '@babel/parser': 7.28.5
       '@babel/traverse': 7.28.5
       '@babel/types': 7.28.5
-      '@modern-js/core': 2.68.7
-      '@modern-js/node-bundle-require': 2.68.7
-      '@modern-js/plugin': 2.68.7
-      '@modern-js/plugin-data-loader': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/plugin-i18n': 2.68.7
-      '@modern-js/plugin-v2': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/prod-server': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/rsbuild-plugin-esbuild': 2.68.7
-      '@modern-js/server': 2.68.7(@babel/traverse@7.28.5)(@rsbuild/core@1.4.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tsconfig-paths@4.2.0)
-      '@modern-js/server-core': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/server-utils': 2.68.7(@babel/traverse@7.28.5)(@rsbuild/core@1.4.14)
-      '@modern-js/types': 2.68.7
-      '@modern-js/uni-builder': 2.68.7(@rspack/core@1.6.7(@swc/helpers@0.5.17))(esbuild@0.25.5)(styled-components@5.3.11(@babel/core@7.28.5)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))(type-fest@0.21.3)(typescript@5.0.4)
-      '@modern-js/utils': 2.68.7
-      '@rsbuild/core': 1.4.14
-      '@rsbuild/plugin-node-polyfill': 1.4.1(@rsbuild/core@1.4.14)
+      '@modern-js/core': 2.69.5
+      '@modern-js/node-bundle-require': 2.69.5
+      '@modern-js/plugin': 2.69.5
+      '@modern-js/plugin-data-loader': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/plugin-i18n': 2.69.5
+      '@modern-js/plugin-v2': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/prod-server': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/rsbuild-plugin-esbuild': 2.69.5
+      '@modern-js/server': 2.69.5(@babel/traverse@7.28.5)(@rsbuild/core@1.6.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tsconfig-paths@4.2.0)
+      '@modern-js/server-core': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/server-utils': 2.69.5(@babel/traverse@7.28.5)(@rsbuild/core@1.6.15)
+      '@modern-js/types': 2.69.5
+      '@modern-js/uni-builder': 2.69.5(@rspack/core@1.6.8(@swc/helpers@0.5.17))(esbuild@0.25.5)(styled-components@5.3.11(@babel/core@7.28.5)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))(type-fest@0.21.3)(typescript@5.0.4)
+      '@modern-js/utils': 2.69.5
+      '@rsbuild/core': 1.6.15
+      '@rsbuild/plugin-node-polyfill': 1.4.2(@rsbuild/core@1.6.15)
       '@swc/helpers': 0.5.17
       es-module-lexer: 1.7.0
       esbuild: 0.25.5
@@ -6470,15 +6745,15 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  '@modern-js/babel-compiler@2.68.7':
+  '@modern-js/babel-compiler@2.69.5':
     dependencies:
       '@babel/core': 7.28.5
-      '@modern-js/utils': 2.68.7
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
     transitivePeerDependencies:
       - supports-color
 
-  '@modern-js/babel-plugin-module-resolver@2.68.7':
+  '@modern-js/babel-plugin-module-resolver@2.69.5':
     dependencies:
       '@swc/helpers': 0.5.17
       glob: 8.1.0
@@ -6486,7 +6761,7 @@ snapshots:
       reselect: 4.1.8
       resolve: 1.22.11
 
-  '@modern-js/babel-preset@2.68.7(@rsbuild/core@1.4.14)':
+  '@modern-js/babel-preset@2.69.5(@rsbuild/core@1.6.15)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-proposal-decorators': 7.28.0(@babel/core@7.28.5)
@@ -6498,7 +6773,7 @@ snapshots:
       '@babel/preset-typescript': 7.28.5(@babel/core@7.28.5)
       '@babel/runtime': 7.28.4
       '@babel/types': 7.28.5
-      '@rsbuild/plugin-babel': 1.0.6(@rsbuild/core@1.4.14)
+      '@rsbuild/plugin-babel': 1.0.6(@rsbuild/core@1.6.15)
       '@swc/helpers': 0.5.17
       '@types/babel__core': 7.20.5
       babel-plugin-dynamic-import-node: 2.3.3
@@ -6507,14 +6782,14 @@ snapshots:
       - '@rsbuild/core'
       - supports-color
 
-  '@modern-js/core@2.68.7':
+  '@modern-js/core@2.69.5':
     dependencies:
-      '@modern-js/node-bundle-require': 2.68.7
-      '@modern-js/plugin': 2.68.7
-      '@modern-js/utils': 2.68.7
+      '@modern-js/node-bundle-require': 2.69.5
+      '@modern-js/plugin': 2.69.5
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
 
-  '@modern-js/flight-server-transform-plugin@2.68.7': {}
+  '@modern-js/flight-server-transform-plugin@2.69.5': {}
 
   '@modern-js/node-bundle-require@2.68.2':
     dependencies:
@@ -6522,17 +6797,17 @@ snapshots:
       '@swc/helpers': 0.5.17
       esbuild: 0.25.5
 
-  '@modern-js/node-bundle-require@2.68.7':
+  '@modern-js/node-bundle-require@2.69.5':
     dependencies:
-      '@modern-js/utils': 2.68.7
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
       esbuild: 0.25.5
 
-  '@modern-js/plugin-data-loader@2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@modern-js/plugin-data-loader@2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/core': 7.28.5
-      '@modern-js/runtime-utils': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/utils': 2.68.7
+      '@modern-js/runtime-utils': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
       path-to-regexp: 6.3.0
       react: 18.3.1
@@ -6540,74 +6815,75 @@ snapshots:
       - react-dom
       - supports-color
 
-  '@modern-js/plugin-i18n@2.68.7':
+  '@modern-js/plugin-i18n@2.69.5':
     dependencies:
-      '@modern-js/utils': 2.68.7
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
 
-  '@modern-js/plugin-tailwindcss@2.68.7(@modern-js/runtime@2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@4.1.18)':
+  '@modern-js/plugin-tailwindcss@2.69.5(@modern-js/runtime@2.69.5(react-dom@18.3.1(react@18.3.1))(react-server-dom-webpack@19.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(webpack@5.104.0(esbuild@0.25.5)))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@4.1.18)':
     dependencies:
-      '@modern-js/node-bundle-require': 2.68.7
-      '@modern-js/runtime-utils': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/utils': 2.68.7
+      '@modern-js/node-bundle-require': 2.69.5
+      '@modern-js/runtime-utils': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
       babel-plugin-macros: 3.1.0
       tailwindcss: 4.1.18
     optionalDependencies:
-      '@modern-js/runtime': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/runtime': 2.69.5(react-dom@18.3.1(react@18.3.1))(react-server-dom-webpack@19.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(webpack@5.104.0(esbuild@0.25.5)))(react@18.3.1)
     transitivePeerDependencies:
       - react
       - react-dom
 
-  '@modern-js/plugin-v2@2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@modern-js/plugin-v2@2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@modern-js/runtime-utils': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/types': 2.68.7
-      '@modern-js/utils': 2.68.7
-      '@rsbuild/core': 1.4.14
+      '@modern-js/runtime-utils': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/types': 2.69.5
+      '@modern-js/utils': 2.69.5
+      '@rsbuild/core': 1.6.15
       '@swc/helpers': 0.5.17
       jiti: 1.21.7
     transitivePeerDependencies:
       - react
       - react-dom
 
-  '@modern-js/plugin@2.68.7':
+  '@modern-js/plugin@2.69.5':
     dependencies:
-      '@modern-js/utils': 2.68.7
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
 
-  '@modern-js/prod-server@2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@modern-js/prod-server@2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@modern-js/runtime-utils': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/server-core': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/utils': 2.68.7
+      '@modern-js/runtime-utils': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/server-core': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
     transitivePeerDependencies:
       - react
       - react-dom
 
-  '@modern-js/render@2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@modern-js/render@2.69.5(react-dom@18.3.1(react@18.3.1))(react-server-dom-webpack@19.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(webpack@5.104.0(esbuild@0.25.5)))(react@18.3.1)':
     dependencies:
-      '@modern-js/types': 2.68.7
-      '@modern-js/utils': 2.68.7
+      '@modern-js/types': 2.69.5
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
+      react-server-dom-webpack: 19.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(webpack@5.104.0(esbuild@0.25.5))
 
-  '@modern-js/rsbuild-plugin-esbuild@2.68.7':
+  '@modern-js/rsbuild-plugin-esbuild@2.69.5':
     dependencies:
       '@swc/helpers': 0.5.17
       esbuild: 0.25.5
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
     transitivePeerDependencies:
       - '@swc/core'
       - uglify-js
       - webpack-cli
 
-  '@modern-js/runtime-utils@2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@modern-js/runtime-utils@2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@modern-js/types': 2.68.7
-      '@modern-js/utils': 2.68.7
+      '@modern-js/types': 2.69.5
+      '@modern-js/utils': 2.69.5
       '@remix-run/router': 1.20.0
       '@swc/helpers': 0.5.17
       lru-cache: 10.4.3
@@ -6617,20 +6893,20 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@modern-js/runtime@2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@modern-js/runtime@2.69.5(react-dom@18.3.1(react@18.3.1))(react-server-dom-webpack@19.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(webpack@5.104.0(esbuild@0.25.5)))(react@18.3.1)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/types': 7.28.5
       '@loadable/babel-plugin': 5.15.3(@babel/core@7.28.5)
       '@loadable/component': 5.15.3(react@18.3.1)
       '@loadable/server': 5.15.3(@loadable/component@5.15.3(react@18.3.1))(react@18.3.1)
-      '@modern-js/plugin': 2.68.7
-      '@modern-js/plugin-data-loader': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/plugin-v2': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/render': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/runtime-utils': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/types': 2.68.7
-      '@modern-js/utils': 2.68.7
+      '@modern-js/plugin': 2.69.5
+      '@modern-js/plugin-data-loader': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/plugin-v2': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/render': 2.69.5(react-dom@18.3.1(react@18.3.1))(react-server-dom-webpack@19.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(webpack@5.104.0(esbuild@0.25.5)))(react@18.3.1)
+      '@modern-js/runtime-utils': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/types': 2.69.5
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
       '@types/loadable__component': 5.13.10
       '@types/react-helmet': 6.1.11
@@ -6647,14 +6923,15 @@ snapshots:
       react-side-effect: 2.1.2(react@18.3.1)
       styled-components: 5.3.11(@babel/core@7.28.5)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
+      - react-server-dom-webpack
       - supports-color
 
-  '@modern-js/server-core@2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@modern-js/server-core@2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@modern-js/plugin': 2.68.7
-      '@modern-js/plugin-v2': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/runtime-utils': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/utils': 2.68.7
+      '@modern-js/plugin': 2.69.5
+      '@modern-js/plugin-v2': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/runtime-utils': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
       '@web-std/fetch': 4.2.1
       '@web-std/file': 3.0.3
@@ -6667,17 +6944,17 @@ snapshots:
       - react
       - react-dom
 
-  '@modern-js/server-utils@2.68.7(@babel/traverse@7.28.5)(@rsbuild/core@1.4.14)':
+  '@modern-js/server-utils@2.69.5(@babel/traverse@7.28.5)(@rsbuild/core@1.6.15)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-proposal-decorators': 7.28.0(@babel/core@7.28.5)
       '@babel/preset-env': 7.28.5(@babel/core@7.28.5)
       '@babel/preset-react': 7.28.5(@babel/core@7.28.5)
       '@babel/preset-typescript': 7.28.5(@babel/core@7.28.5)
-      '@modern-js/babel-compiler': 2.68.7
-      '@modern-js/babel-plugin-module-resolver': 2.68.7
-      '@modern-js/babel-preset': 2.68.7(@rsbuild/core@1.4.14)
-      '@modern-js/utils': 2.68.7
+      '@modern-js/babel-compiler': 2.69.5
+      '@modern-js/babel-plugin-module-resolver': 2.69.5
+      '@modern-js/babel-preset': 2.69.5(@rsbuild/core@1.6.15)
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
       babel-plugin-transform-typescript-metadata: 0.3.2(@babel/core@7.28.5)(@babel/traverse@7.28.5)
     transitivePeerDependencies:
@@ -6685,15 +6962,15 @@ snapshots:
       - '@rsbuild/core'
       - supports-color
 
-  '@modern-js/server@2.68.7(@babel/traverse@7.28.5)(@rsbuild/core@1.4.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tsconfig-paths@4.2.0)':
+  '@modern-js/server@2.69.5(@babel/traverse@7.28.5)(@rsbuild/core@1.6.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tsconfig-paths@4.2.0)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/register': 7.28.3(@babel/core@7.28.5)
-      '@modern-js/runtime-utils': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/server-core': 2.68.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@modern-js/server-utils': 2.68.7(@babel/traverse@7.28.5)(@rsbuild/core@1.4.14)
-      '@modern-js/types': 2.68.7
-      '@modern-js/utils': 2.68.7
+      '@modern-js/runtime-utils': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/server-core': 2.69.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@modern-js/server-utils': 2.69.5(@babel/traverse@7.28.5)(@rsbuild/core@1.6.15)
+      '@modern-js/types': 2.69.5
+      '@modern-js/utils': 2.69.5
       '@swc/helpers': 0.5.17
       axios: 1.13.2
       connect-history-api-fallback: 2.0.0
@@ -6713,38 +6990,38 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@modern-js/tsconfig@2.68.7': {}
+  '@modern-js/tsconfig@2.69.5': {}
 
-  '@modern-js/types@2.68.7': {}
+  '@modern-js/types@2.69.5': {}
 
-  '@modern-js/uni-builder@2.68.7(@rspack/core@1.6.7(@swc/helpers@0.5.17))(esbuild@0.25.5)(styled-components@5.3.11(@babel/core@7.28.5)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))(type-fest@0.21.3)(typescript@5.0.4)':
+  '@modern-js/uni-builder@2.69.5(@rspack/core@1.6.8(@swc/helpers@0.5.17))(esbuild@0.25.5)(styled-components@5.3.11(@babel/core@7.28.5)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))(type-fest@0.21.3)(typescript@5.0.4)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/preset-react': 7.28.5(@babel/core@7.28.5)
       '@babel/types': 7.28.5
-      '@modern-js/babel-preset': 2.68.7(@rsbuild/core@1.4.14)
-      '@modern-js/flight-server-transform-plugin': 2.68.7
-      '@modern-js/utils': 2.68.7
+      '@modern-js/babel-preset': 2.69.5(@rsbuild/core@1.6.15)
+      '@modern-js/flight-server-transform-plugin': 2.69.5
+      '@modern-js/utils': 2.69.5
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.16(react-refresh@0.14.2)(type-fest@0.21.3)(webpack@5.104.0(esbuild@0.25.5))
-      '@rsbuild/core': 1.4.14
-      '@rsbuild/plugin-assets-retry': 1.4.1(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-babel': 1.0.6(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-check-syntax': 1.3.1(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-css-minimizer': 1.0.3(@rsbuild/core@1.4.14)(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5))
-      '@rsbuild/plugin-less': 1.3.2(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-pug': 1.3.2(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-react': 1.3.5(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-rem': 1.0.3(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-sass': 1.3.4(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-source-build': 1.0.3(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-styled-components': 1.4.0(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-svgr': 1.2.2(@rsbuild/core@1.4.14)(typescript@5.0.4)
-      '@rsbuild/plugin-toml': 1.1.1(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-type-check': 1.2.4(@rsbuild/core@1.4.14)(@rspack/core@1.6.7(@swc/helpers@0.5.17))(typescript@5.0.4)
-      '@rsbuild/plugin-typed-css-modules': 1.0.3(@rsbuild/core@1.4.14)
-      '@rsbuild/plugin-yaml': 1.0.3(@rsbuild/core@1.4.14)
-      '@rsbuild/webpack': 1.3.3(@rsbuild/core@1.4.14)(@rspack/core@1.6.7(@swc/helpers@0.5.17))(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
-      '@swc/core': 1.11.31(@swc/helpers@0.5.17)
+      '@rsbuild/core': 1.6.15
+      '@rsbuild/plugin-assets-retry': 1.5.0(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-babel': 1.0.6(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-check-syntax': 1.6.0(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-css-minimizer': 1.1.0(@rsbuild/core@1.6.15)(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5))
+      '@rsbuild/plugin-less': 1.5.0(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-pug': 1.3.2(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-react': 1.4.2(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-rem': 1.0.4(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-sass': 1.4.0(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-source-build': 1.0.3(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-styled-components': 1.5.0(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-svgr': 1.2.3(@rsbuild/core@1.6.15)(typescript@5.0.4)
+      '@rsbuild/plugin-toml': 1.1.1(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-type-check': 1.3.2(@rsbuild/core@1.6.15)(@rspack/core@1.6.8(@swc/helpers@0.5.17))(typescript@5.0.4)
+      '@rsbuild/plugin-typed-css-modules': 1.2.0(@rsbuild/core@1.6.15)
+      '@rsbuild/plugin-yaml': 1.0.3(@rsbuild/core@1.6.15)
+      '@rsbuild/webpack': 1.6.1(@rsbuild/core@1.6.15)(@rspack/core@1.6.8(@swc/helpers@0.5.17))(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      '@swc/core': 1.14.0(@swc/helpers@0.5.17)
       '@swc/helpers': 0.5.17
       autoprefixer: 10.4.21(postcss@8.5.6)
       babel-loader: 9.2.1(@babel/core@7.28.5)(webpack@5.104.0(esbuild@0.25.5))
@@ -6756,7 +7033,7 @@ snapshots:
       es-module-lexer: 1.7.0
       glob: 9.3.5
       html-minifier-terser: 7.2.0
-      html-webpack-plugin: 5.6.3(@rspack/core@1.6.7(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5))
+      html-webpack-plugin: 5.6.4(@rspack/core@1.6.8(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5))
       jiti: 1.21.7
       lodash: 4.17.21
       magic-string: 0.30.17
@@ -6770,12 +7047,12 @@ snapshots:
       postcss-nesting: 12.1.5(postcss@8.5.6)
       postcss-page-break: 3.0.4(postcss@8.5.6)
       react-refresh: 0.14.2
-      rspack-manifest-plugin: 5.0.3(@rspack/core@1.6.7(@swc/helpers@0.5.17))
-      terser-webpack-plugin: 5.3.14(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5))
+      rspack-manifest-plugin: 5.0.3(@rspack/core@1.6.8(@swc/helpers@0.5.17))
+      terser-webpack-plugin: 5.3.14(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5))
       ts-deepmerge: 7.0.2
       ts-loader: 9.4.4(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
-      webpack-subresource-integrity: 5.1.0(html-webpack-plugin@5.6.3(@rspack/core@1.6.7(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5)))(webpack@5.104.0(esbuild@0.25.5))
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack-subresource-integrity: 5.1.0(html-webpack-plugin@5.6.4(@rspack/core@1.6.8(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5)))(webpack@5.104.0(esbuild@0.25.5))
     transitivePeerDependencies:
       - '@parcel/css'
       - '@rspack/core'
@@ -6803,7 +7080,7 @@ snapshots:
       lodash: 4.17.21
       rslog: 1.3.2
 
-  '@modern-js/utils@2.68.7':
+  '@modern-js/utils@2.69.5':
     dependencies:
       '@swc/helpers': 0.5.17
       caniuse-lite: 1.0.30001760
@@ -6877,7 +7154,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@module-federation/enhanced@0.21.6(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))':
+  '@module-federation/enhanced@0.21.6(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))':
     dependencies:
       '@module-federation/bridge-react-webpack-plugin': 0.21.6
       '@module-federation/cli': 0.21.6(typescript@5.0.4)
@@ -6887,7 +7164,7 @@ snapshots:
       '@module-federation/inject-external-runtime-core-plugin': 0.21.6(@module-federation/runtime-tools@0.21.6)
       '@module-federation/managers': 0.21.6
       '@module-federation/manifest': 0.21.6(typescript@5.0.4)
-      '@module-federation/rspack': 0.21.6(@rspack/core@1.6.7(@swc/helpers@0.5.17))(typescript@5.0.4)
+      '@module-federation/rspack': 0.21.6(@rspack/core@1.6.8(@swc/helpers@0.5.17))(typescript@5.0.4)
       '@module-federation/runtime-tools': 0.21.6
       '@module-federation/sdk': 0.21.6
       btoa: 1.2.1
@@ -6895,7 +7172,7 @@ snapshots:
       upath: 2.0.1
     optionalDependencies:
       typescript: 5.0.4
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
     transitivePeerDependencies:
       - '@rspack/core'
       - bufferutil
@@ -6904,8 +7181,6 @@ snapshots:
       - react-dom
       - supports-color
       - utf-8-validate
-
-  '@module-federation/error-codes@0.17.1': {}
 
   '@module-federation/error-codes@0.21.6': {}
 
@@ -6934,15 +7209,15 @@ snapshots:
       - utf-8-validate
       - vue-tsc
 
-  '@module-federation/modern-js@0.21.6(@rsbuild/core@1.4.14)(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))':
+  '@module-federation/modern-js@0.21.6(@rsbuild/core@1.6.15)(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))':
     dependencies:
       '@modern-js/node-bundle-require': 2.68.2
       '@modern-js/utils': 2.68.2
       '@module-federation/bridge-react': 0.21.6(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@module-federation/cli': 0.21.6(typescript@5.0.4)
-      '@module-federation/enhanced': 0.21.6(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
-      '@module-federation/node': 2.7.25(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
-      '@module-federation/rsbuild-plugin': 0.21.6(@rsbuild/core@1.4.14)(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
+      '@module-federation/enhanced': 0.21.6(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
+      '@module-federation/node': 2.7.25(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
+      '@module-federation/rsbuild-plugin': 0.21.6(@rsbuild/core@1.6.15)(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
       '@module-federation/runtime': 0.21.6
       '@module-federation/sdk': 0.21.6
       '@swc/helpers': 0.5.17
@@ -6965,15 +7240,15 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@module-federation/node@2.7.25(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))':
+  '@module-federation/node@2.7.25(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))':
     dependencies:
-      '@module-federation/enhanced': 0.21.6(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
+      '@module-federation/enhanced': 0.21.6(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
       '@module-federation/runtime': 0.21.6
       '@module-federation/sdk': 0.21.6
       btoa: 1.2.1
       encoding: 0.1.13
       node-fetch: 2.7.0(encoding@0.1.13)
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
     optionalDependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -6986,14 +7261,14 @@ snapshots:
       - utf-8-validate
       - vue-tsc
 
-  '@module-federation/rsbuild-plugin@0.21.6(@rsbuild/core@1.4.14)(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))':
+  '@module-federation/rsbuild-plugin@0.21.6(@rsbuild/core@1.6.15)(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))':
     dependencies:
-      '@module-federation/enhanced': 0.21.6(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
-      '@module-federation/node': 2.7.25(@rspack/core@1.6.7(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
+      '@module-federation/enhanced': 0.21.6(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
+      '@module-federation/node': 2.7.25(@rspack/core@1.6.8(@swc/helpers@0.5.17))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.0.4)(webpack@5.104.0(esbuild@0.25.5))
       '@module-federation/sdk': 0.21.6
       fs-extra: 11.3.0
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
     transitivePeerDependencies:
       - '@rspack/core'
       - bufferutil
@@ -7007,7 +7282,7 @@ snapshots:
       - vue-tsc
       - webpack
 
-  '@module-federation/rspack@0.21.6(@rspack/core@1.6.7(@swc/helpers@0.5.17))(typescript@5.0.4)':
+  '@module-federation/rspack@0.21.6(@rspack/core@1.6.8(@swc/helpers@0.5.17))(typescript@5.0.4)':
     dependencies:
       '@module-federation/bridge-react-webpack-plugin': 0.21.6
       '@module-federation/dts-plugin': 0.21.6(typescript@5.0.4)
@@ -7016,7 +7291,7 @@ snapshots:
       '@module-federation/manifest': 0.21.6(typescript@5.0.4)
       '@module-federation/runtime-tools': 0.21.6
       '@module-federation/sdk': 0.21.6
-      '@rspack/core': 1.6.7(@swc/helpers@0.5.17)
+      '@rspack/core': 1.6.8(@swc/helpers@0.5.17)
       btoa: 1.2.1
     optionalDependencies:
       typescript: 5.0.4
@@ -7026,39 +7301,21 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@module-federation/runtime-core@0.17.1':
-    dependencies:
-      '@module-federation/error-codes': 0.17.1
-      '@module-federation/sdk': 0.17.1
-
   '@module-federation/runtime-core@0.21.6':
     dependencies:
       '@module-federation/error-codes': 0.21.6
       '@module-federation/sdk': 0.21.6
-
-  '@module-federation/runtime-tools@0.17.1':
-    dependencies:
-      '@module-federation/runtime': 0.17.1
-      '@module-federation/webpack-bundler-runtime': 0.17.1
 
   '@module-federation/runtime-tools@0.21.6':
     dependencies:
       '@module-federation/runtime': 0.21.6
       '@module-federation/webpack-bundler-runtime': 0.21.6
 
-  '@module-federation/runtime@0.17.1':
-    dependencies:
-      '@module-federation/error-codes': 0.17.1
-      '@module-federation/runtime-core': 0.17.1
-      '@module-federation/sdk': 0.17.1
-
   '@module-federation/runtime@0.21.6':
     dependencies:
       '@module-federation/error-codes': 0.21.6
       '@module-federation/runtime-core': 0.21.6
       '@module-federation/sdk': 0.21.6
-
-  '@module-federation/sdk@0.17.1': {}
 
   '@module-federation/sdk@0.21.6': {}
 
@@ -7067,11 +7324,6 @@ snapshots:
       find-pkg: 2.0.0
       fs-extra: 9.1.0
       resolve: 1.22.8
-
-  '@module-federation/webpack-bundler-runtime@0.17.1':
-    dependencies:
-      '@module-federation/runtime': 0.17.1
-      '@module-federation/sdk': 0.17.1
 
   '@module-federation/webpack-bundler-runtime@0.21.6':
     dependencies:
@@ -7168,7 +7420,7 @@ snapshots:
       react-refresh: 0.14.2
       schema-utils: 4.3.3
       source-map: 0.7.6
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
     optionalDependencies:
       type-fest: 0.21.3
 
@@ -7228,25 +7480,25 @@ snapshots:
       estree-walker: 2.0.2
       picomatch: 2.3.1
 
-  '@rsbuild/core@1.4.14':
+  '@rsbuild/core@1.6.15':
     dependencies:
-      '@rspack/core': 1.4.11(@swc/helpers@0.5.17)
-      '@rspack/lite-tapable': 1.0.1
+      '@rspack/core': 1.6.8(@swc/helpers@0.5.17)
+      '@rspack/lite-tapable': 1.1.0
       '@swc/helpers': 0.5.17
-      core-js: 3.44.0
+      core-js: 3.47.0
       jiti: 2.6.1
 
-  '@rsbuild/plugin-assets-retry@1.4.1(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-assets-retry@1.5.0(@rsbuild/core@1.6.15)':
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
 
-  '@rsbuild/plugin-babel@1.0.6(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-babel@1.0.6(@rsbuild/core@1.6.15)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-proposal-decorators': 7.28.0(@babel/core@7.28.5)
       '@babel/plugin-transform-class-properties': 7.27.1(@babel/core@7.28.5)
       '@babel/preset-typescript': 7.28.5(@babel/core@7.28.5)
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
       '@types/babel__core': 7.20.5
       deepmerge: 4.3.1
       reduce-configs: 1.1.1
@@ -7254,7 +7506,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@rsbuild/plugin-check-syntax@1.3.1(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-check-syntax@1.6.0(@rsbuild/core@1.6.15)':
     dependencies:
       acorn: 8.15.0
       browserslist-to-es-version: 1.2.0
@@ -7262,14 +7514,14 @@ snapshots:
       picocolors: 1.1.1
       source-map: 0.7.6
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
 
-  '@rsbuild/plugin-css-minimizer@1.0.3(@rsbuild/core@1.4.14)(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5))':
+  '@rsbuild/plugin-css-minimizer@1.1.0(@rsbuild/core@1.6.15)(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5))':
     dependencies:
-      css-minimizer-webpack-plugin: 5.0.1(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5))
+      css-minimizer-webpack-plugin: 7.0.2(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5))
       reduce-configs: 1.1.1
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
     transitivePeerDependencies:
       - '@parcel/css'
       - '@swc/css'
@@ -7279,13 +7531,13 @@ snapshots:
       - lightningcss
       - webpack
 
-  '@rsbuild/plugin-less@1.3.2(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-less@1.5.0(@rsbuild/core@1.6.15)':
     dependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
       deepmerge: 4.3.1
       reduce-configs: 1.1.1
 
-  '@rsbuild/plugin-node-polyfill@1.4.1(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-node-polyfill@1.4.2(@rsbuild/core@1.6.15)':
     dependencies:
       assert: 2.1.0
       browserify-zlib: 0.2.0
@@ -7311,68 +7563,60 @@ snapshots:
       util: 0.12.5
       vm-browserify: 1.1.2
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
 
-  '@rsbuild/plugin-pug@1.3.2(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-pug@1.3.2(@rsbuild/core@1.6.15)':
     dependencies:
       '@types/pug': 2.0.10
       lodash: 4.17.21
       pug: 3.0.3
       reduce-configs: 1.1.1
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
 
-  '@rsbuild/plugin-react@1.3.5(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-react@1.4.2(@rsbuild/core@1.6.15)':
     dependencies:
-      '@rsbuild/core': 1.4.14
-      '@rspack/plugin-react-refresh': 1.4.3(react-refresh@0.17.0)
-      react-refresh: 0.17.0
-    transitivePeerDependencies:
-      - webpack-hot-middleware
-
-  '@rsbuild/plugin-react@1.4.2(@rsbuild/core@1.4.14)':
-    dependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
       '@rspack/plugin-react-refresh': 1.5.3(react-refresh@0.18.0)
       react-refresh: 0.18.0
     transitivePeerDependencies:
       - webpack-hot-middleware
 
-  '@rsbuild/plugin-rem@1.0.3(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-rem@1.0.4(@rsbuild/core@1.6.15)':
     dependencies:
       deepmerge: 4.3.1
       terser: 5.44.1
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
 
-  '@rsbuild/plugin-sass@1.3.4(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-sass@1.4.0(@rsbuild/core@1.6.15)':
     dependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
       deepmerge: 4.3.1
       loader-utils: 2.0.4
       postcss: 8.5.6
       reduce-configs: 1.1.1
       sass-embedded: 1.97.0
 
-  '@rsbuild/plugin-source-build@1.0.3(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-source-build@1.0.3(@rsbuild/core@1.6.15)':
     dependencies:
       fast-glob: 3.3.3
       json5: 2.2.3
       yaml: 2.8.2
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
 
-  '@rsbuild/plugin-styled-components@1.4.0(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-styled-components@1.5.0(@rsbuild/core@1.6.15)':
     dependencies:
-      '@swc/plugin-styled-components': 8.0.4
+      '@swc/plugin-styled-components': 10.0.0
       reduce-configs: 1.1.1
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
 
-  '@rsbuild/plugin-svgr@1.2.2(@rsbuild/core@1.4.14)(typescript@5.0.4)':
+  '@rsbuild/plugin-svgr@1.2.3(@rsbuild/core@1.6.15)(typescript@5.0.4)':
     dependencies:
-      '@rsbuild/core': 1.4.14
-      '@rsbuild/plugin-react': 1.4.2(@rsbuild/core@1.4.14)
+      '@rsbuild/core': 1.6.15
+      '@rsbuild/plugin-react': 1.4.2(@rsbuild/core@1.6.15)
       '@svgr/core': 8.1.0(typescript@5.0.4)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.0.4))
       '@svgr/plugin-svgo': 8.1.0(@svgr/core@8.1.0(typescript@5.0.4))(typescript@5.0.4)
@@ -7383,42 +7627,42 @@ snapshots:
       - typescript
       - webpack-hot-middleware
 
-  '@rsbuild/plugin-toml@1.1.1(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-toml@1.1.1(@rsbuild/core@1.6.15)':
     dependencies:
       toml: 3.0.0
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
 
-  '@rsbuild/plugin-type-check@1.2.4(@rsbuild/core@1.4.14)(@rspack/core@1.6.7(@swc/helpers@0.5.17))(typescript@5.0.4)':
+  '@rsbuild/plugin-type-check@1.3.2(@rsbuild/core@1.6.15)(@rspack/core@1.6.8(@swc/helpers@0.5.17))(typescript@5.0.4)':
     dependencies:
       deepmerge: 4.3.1
       json5: 2.2.3
       reduce-configs: 1.1.1
-      ts-checker-rspack-plugin: 1.2.2(@rspack/core@1.6.7(@swc/helpers@0.5.17))(typescript@5.0.4)
+      ts-checker-rspack-plugin: 1.2.2(@rspack/core@1.6.8(@swc/helpers@0.5.17))(typescript@5.0.4)
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
     transitivePeerDependencies:
       - '@rspack/core'
       - typescript
 
-  '@rsbuild/plugin-typed-css-modules@1.0.3(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-typed-css-modules@1.2.0(@rsbuild/core@1.6.15)':
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
 
-  '@rsbuild/plugin-yaml@1.0.3(@rsbuild/core@1.4.14)':
+  '@rsbuild/plugin-yaml@1.0.3(@rsbuild/core@1.6.15)':
     optionalDependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
 
-  '@rsbuild/webpack@1.3.3(@rsbuild/core@1.4.14)(@rspack/core@1.6.7(@swc/helpers@0.5.17))(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)':
+  '@rsbuild/webpack@1.6.1(@rsbuild/core@1.6.15)(@rspack/core@1.6.8(@swc/helpers@0.5.17))(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)':
     dependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.6.15
       copy-webpack-plugin: 11.0.0(webpack@5.104.0(esbuild@0.25.5))
-      html-webpack-plugin: 5.6.4(@rspack/core@1.6.7(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5))
-      mini-css-extract-plugin: 2.9.2(webpack@5.104.0(esbuild@0.25.5))
+      html-webpack-plugin: 5.6.4(@rspack/core@1.6.8(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5))
+      mini-css-extract-plugin: 2.9.4(webpack@5.104.0(esbuild@0.25.5))
       picocolors: 1.1.1
       reduce-configs: 1.1.1
       tsconfig-paths-webpack-plugin: 4.2.0
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@swc/core'
@@ -7426,121 +7670,60 @@ snapshots:
       - uglify-js
       - webpack-cli
 
-  '@rspack/binding-darwin-arm64@1.4.11':
+  '@rspack/binding-darwin-arm64@1.6.8':
     optional: true
 
-  '@rspack/binding-darwin-arm64@1.6.7':
+  '@rspack/binding-darwin-x64@1.6.8':
     optional: true
 
-  '@rspack/binding-darwin-x64@1.4.11':
+  '@rspack/binding-linux-arm64-gnu@1.6.8':
     optional: true
 
-  '@rspack/binding-darwin-x64@1.6.7':
+  '@rspack/binding-linux-arm64-musl@1.6.8':
     optional: true
 
-  '@rspack/binding-linux-arm64-gnu@1.4.11':
+  '@rspack/binding-linux-x64-gnu@1.6.8':
     optional: true
 
-  '@rspack/binding-linux-arm64-gnu@1.6.7':
+  '@rspack/binding-linux-x64-musl@1.6.8':
     optional: true
 
-  '@rspack/binding-linux-arm64-musl@1.4.11':
-    optional: true
-
-  '@rspack/binding-linux-arm64-musl@1.6.7':
-    optional: true
-
-  '@rspack/binding-linux-x64-gnu@1.4.11':
-    optional: true
-
-  '@rspack/binding-linux-x64-gnu@1.6.7':
-    optional: true
-
-  '@rspack/binding-linux-x64-musl@1.4.11':
-    optional: true
-
-  '@rspack/binding-linux-x64-musl@1.6.7':
-    optional: true
-
-  '@rspack/binding-wasm32-wasi@1.4.11':
+  '@rspack/binding-wasm32-wasi@1.6.8':
     dependencies:
       '@napi-rs/wasm-runtime': 1.0.7
     optional: true
 
-  '@rspack/binding-wasm32-wasi@1.6.7':
-    dependencies:
-      '@napi-rs/wasm-runtime': 1.0.7
+  '@rspack/binding-win32-arm64-msvc@1.6.8':
     optional: true
 
-  '@rspack/binding-win32-arm64-msvc@1.4.11':
+  '@rspack/binding-win32-ia32-msvc@1.6.8':
     optional: true
 
-  '@rspack/binding-win32-arm64-msvc@1.6.7':
+  '@rspack/binding-win32-x64-msvc@1.6.8':
     optional: true
 
-  '@rspack/binding-win32-ia32-msvc@1.4.11':
-    optional: true
-
-  '@rspack/binding-win32-ia32-msvc@1.6.7':
-    optional: true
-
-  '@rspack/binding-win32-x64-msvc@1.4.11':
-    optional: true
-
-  '@rspack/binding-win32-x64-msvc@1.6.7':
-    optional: true
-
-  '@rspack/binding@1.4.11':
+  '@rspack/binding@1.6.8':
     optionalDependencies:
-      '@rspack/binding-darwin-arm64': 1.4.11
-      '@rspack/binding-darwin-x64': 1.4.11
-      '@rspack/binding-linux-arm64-gnu': 1.4.11
-      '@rspack/binding-linux-arm64-musl': 1.4.11
-      '@rspack/binding-linux-x64-gnu': 1.4.11
-      '@rspack/binding-linux-x64-musl': 1.4.11
-      '@rspack/binding-wasm32-wasi': 1.4.11
-      '@rspack/binding-win32-arm64-msvc': 1.4.11
-      '@rspack/binding-win32-ia32-msvc': 1.4.11
-      '@rspack/binding-win32-x64-msvc': 1.4.11
+      '@rspack/binding-darwin-arm64': 1.6.8
+      '@rspack/binding-darwin-x64': 1.6.8
+      '@rspack/binding-linux-arm64-gnu': 1.6.8
+      '@rspack/binding-linux-arm64-musl': 1.6.8
+      '@rspack/binding-linux-x64-gnu': 1.6.8
+      '@rspack/binding-linux-x64-musl': 1.6.8
+      '@rspack/binding-wasm32-wasi': 1.6.8
+      '@rspack/binding-win32-arm64-msvc': 1.6.8
+      '@rspack/binding-win32-ia32-msvc': 1.6.8
+      '@rspack/binding-win32-x64-msvc': 1.6.8
 
-  '@rspack/binding@1.6.7':
-    optionalDependencies:
-      '@rspack/binding-darwin-arm64': 1.6.7
-      '@rspack/binding-darwin-x64': 1.6.7
-      '@rspack/binding-linux-arm64-gnu': 1.6.7
-      '@rspack/binding-linux-arm64-musl': 1.6.7
-      '@rspack/binding-linux-x64-gnu': 1.6.7
-      '@rspack/binding-linux-x64-musl': 1.6.7
-      '@rspack/binding-wasm32-wasi': 1.6.7
-      '@rspack/binding-win32-arm64-msvc': 1.6.7
-      '@rspack/binding-win32-ia32-msvc': 1.6.7
-      '@rspack/binding-win32-x64-msvc': 1.6.7
-
-  '@rspack/core@1.4.11(@swc/helpers@0.5.17)':
-    dependencies:
-      '@module-federation/runtime-tools': 0.17.1
-      '@rspack/binding': 1.4.11
-      '@rspack/lite-tapable': 1.0.1
-    optionalDependencies:
-      '@swc/helpers': 0.5.17
-
-  '@rspack/core@1.6.7(@swc/helpers@0.5.17)':
+  '@rspack/core@1.6.8(@swc/helpers@0.5.17)':
     dependencies:
       '@module-federation/runtime-tools': 0.21.6
-      '@rspack/binding': 1.6.7
+      '@rspack/binding': 1.6.8
       '@rspack/lite-tapable': 1.1.0
     optionalDependencies:
       '@swc/helpers': 0.5.17
 
-  '@rspack/lite-tapable@1.0.1': {}
-
   '@rspack/lite-tapable@1.1.0': {}
-
-  '@rspack/plugin-react-refresh@1.4.3(react-refresh@0.17.0)':
-    dependencies:
-      error-stack-parser: 2.1.4
-      html-entities: 2.6.0
-      react-refresh: 0.17.0
 
   '@rspack/plugin-react-refresh@1.5.3(react-refresh@0.18.0)':
     dependencies:
@@ -7629,51 +7812,51 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@swc/core-darwin-arm64@1.11.31':
+  '@swc/core-darwin-arm64@1.14.0':
     optional: true
 
-  '@swc/core-darwin-x64@1.11.31':
+  '@swc/core-darwin-x64@1.14.0':
     optional: true
 
-  '@swc/core-linux-arm-gnueabihf@1.11.31':
+  '@swc/core-linux-arm-gnueabihf@1.14.0':
     optional: true
 
-  '@swc/core-linux-arm64-gnu@1.11.31':
+  '@swc/core-linux-arm64-gnu@1.14.0':
     optional: true
 
-  '@swc/core-linux-arm64-musl@1.11.31':
+  '@swc/core-linux-arm64-musl@1.14.0':
     optional: true
 
-  '@swc/core-linux-x64-gnu@1.11.31':
+  '@swc/core-linux-x64-gnu@1.14.0':
     optional: true
 
-  '@swc/core-linux-x64-musl@1.11.31':
+  '@swc/core-linux-x64-musl@1.14.0':
     optional: true
 
-  '@swc/core-win32-arm64-msvc@1.11.31':
+  '@swc/core-win32-arm64-msvc@1.14.0':
     optional: true
 
-  '@swc/core-win32-ia32-msvc@1.11.31':
+  '@swc/core-win32-ia32-msvc@1.14.0':
     optional: true
 
-  '@swc/core-win32-x64-msvc@1.11.31':
+  '@swc/core-win32-x64-msvc@1.14.0':
     optional: true
 
-  '@swc/core@1.11.31(@swc/helpers@0.5.17)':
+  '@swc/core@1.14.0(@swc/helpers@0.5.17)':
     dependencies:
       '@swc/counter': 0.1.3
       '@swc/types': 0.1.25
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.11.31
-      '@swc/core-darwin-x64': 1.11.31
-      '@swc/core-linux-arm-gnueabihf': 1.11.31
-      '@swc/core-linux-arm64-gnu': 1.11.31
-      '@swc/core-linux-arm64-musl': 1.11.31
-      '@swc/core-linux-x64-gnu': 1.11.31
-      '@swc/core-linux-x64-musl': 1.11.31
-      '@swc/core-win32-arm64-msvc': 1.11.31
-      '@swc/core-win32-ia32-msvc': 1.11.31
-      '@swc/core-win32-x64-msvc': 1.11.31
+      '@swc/core-darwin-arm64': 1.14.0
+      '@swc/core-darwin-x64': 1.14.0
+      '@swc/core-linux-arm-gnueabihf': 1.14.0
+      '@swc/core-linux-arm64-gnu': 1.14.0
+      '@swc/core-linux-arm64-musl': 1.14.0
+      '@swc/core-linux-x64-gnu': 1.14.0
+      '@swc/core-linux-x64-musl': 1.14.0
+      '@swc/core-win32-arm64-msvc': 1.14.0
+      '@swc/core-win32-ia32-msvc': 1.14.0
+      '@swc/core-win32-x64-msvc': 1.14.0
       '@swc/helpers': 0.5.17
 
   '@swc/counter@0.1.3': {}
@@ -7682,13 +7865,82 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@swc/plugin-styled-components@8.0.4':
+  '@swc/plugin-styled-components@10.0.0':
     dependencies:
       '@swc/counter': 0.1.3
 
   '@swc/types@0.1.25':
     dependencies:
       '@swc/counter': 0.1.3
+
+  '@tailwindcss/node@4.1.18':
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
+      enhanced-resolve: 5.18.4
+      jiti: 2.6.1
+      lightningcss: 1.30.2
+      magic-string: 0.30.21
+      source-map-js: 1.2.1
+      tailwindcss: 4.1.18
+
+  '@tailwindcss/oxide-android-arm64@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-darwin-arm64@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-darwin-x64@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-freebsd-x64@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-linux-arm-gnueabihf@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-linux-arm64-gnu@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-linux-arm64-musl@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-linux-x64-gnu@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-linux-x64-musl@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-wasm32-wasi@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-win32-arm64-msvc@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide-win32-x64-msvc@4.1.18':
+    optional: true
+
+  '@tailwindcss/oxide@4.1.18':
+    optionalDependencies:
+      '@tailwindcss/oxide-android-arm64': 4.1.18
+      '@tailwindcss/oxide-darwin-arm64': 4.1.18
+      '@tailwindcss/oxide-darwin-x64': 4.1.18
+      '@tailwindcss/oxide-freebsd-x64': 4.1.18
+      '@tailwindcss/oxide-linux-arm-gnueabihf': 4.1.18
+      '@tailwindcss/oxide-linux-arm64-gnu': 4.1.18
+      '@tailwindcss/oxide-linux-arm64-musl': 4.1.18
+      '@tailwindcss/oxide-linux-x64-gnu': 4.1.18
+      '@tailwindcss/oxide-linux-x64-musl': 4.1.18
+      '@tailwindcss/oxide-wasm32-wasi': 4.1.18
+      '@tailwindcss/oxide-win32-arm64-msvc': 4.1.18
+      '@tailwindcss/oxide-win32-x64-msvc': 4.1.18
+
+  '@tailwindcss/postcss@4.1.18':
+    dependencies:
+      '@alloc/quick-lru': 5.2.0
+      '@tailwindcss/node': 4.1.18
+      '@tailwindcss/oxide': 4.1.18
+      postcss: 8.5.6
+      tailwindcss: 4.1.18
 
   '@tanstack/react-virtual@3.13.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -7957,6 +8209,10 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
+  acorn-loose@8.5.2:
+    dependencies:
+      acorn: 8.15.0
+
   acorn@7.4.1: {}
 
   acorn@8.15.0: {}
@@ -8077,7 +8333,7 @@ snapshots:
       '@babel/core': 7.28.5
       find-cache-dir: 4.0.0
       schema-utils: 4.3.3
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
 
   babel-plugin-dynamic-import-node@2.3.3:
     dependencies:
@@ -8460,7 +8716,7 @@ snapshots:
       normalize-path: 3.0.0
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
 
   core-js-compat@3.47.0:
     dependencies:
@@ -8470,7 +8726,7 @@ snapshots:
 
   core-js@3.40.0: {}
 
-  core-js@3.44.0: {}
+  core-js@3.47.0: {}
 
   core-util-is@1.0.3: {}
 
@@ -8544,15 +8800,15 @@ snapshots:
     dependencies:
       postcss: 8.5.6
 
-  css-minimizer-webpack-plugin@5.0.1(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5)):
+  css-minimizer-webpack-plugin@7.0.2(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
-      cssnano: 6.1.2(postcss@8.5.6)
+      cssnano: 7.1.2(postcss@8.5.6)
       jest-worker: 29.7.0
       postcss: 8.5.6
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
     optionalDependencies:
       esbuild: 0.25.5
 
@@ -8586,6 +8842,11 @@ snapshots:
   css-tree@2.3.1:
     dependencies:
       mdn-data: 2.0.30
+      source-map-js: 1.2.1
+
+  css-tree@3.1.0:
+    dependencies:
+      mdn-data: 2.12.2
       source-map-js: 1.2.1
 
   css-what@6.2.2: {}
@@ -8626,13 +8887,57 @@ snapshots:
       postcss-svgo: 6.0.3(postcss@8.5.6)
       postcss-unique-selectors: 6.0.4(postcss@8.5.6)
 
+  cssnano-preset-default@7.0.10(postcss@8.5.6):
+    dependencies:
+      browserslist: 4.28.1
+      css-declaration-sorter: 7.3.0(postcss@8.5.6)
+      cssnano-utils: 5.0.1(postcss@8.5.6)
+      postcss: 8.5.6
+      postcss-calc: 10.1.1(postcss@8.5.6)
+      postcss-colormin: 7.0.5(postcss@8.5.6)
+      postcss-convert-values: 7.0.8(postcss@8.5.6)
+      postcss-discard-comments: 7.0.5(postcss@8.5.6)
+      postcss-discard-duplicates: 7.0.2(postcss@8.5.6)
+      postcss-discard-empty: 7.0.1(postcss@8.5.6)
+      postcss-discard-overridden: 7.0.1(postcss@8.5.6)
+      postcss-merge-longhand: 7.0.5(postcss@8.5.6)
+      postcss-merge-rules: 7.0.7(postcss@8.5.6)
+      postcss-minify-font-values: 7.0.1(postcss@8.5.6)
+      postcss-minify-gradients: 7.0.1(postcss@8.5.6)
+      postcss-minify-params: 7.0.5(postcss@8.5.6)
+      postcss-minify-selectors: 7.0.5(postcss@8.5.6)
+      postcss-normalize-charset: 7.0.1(postcss@8.5.6)
+      postcss-normalize-display-values: 7.0.1(postcss@8.5.6)
+      postcss-normalize-positions: 7.0.1(postcss@8.5.6)
+      postcss-normalize-repeat-style: 7.0.1(postcss@8.5.6)
+      postcss-normalize-string: 7.0.1(postcss@8.5.6)
+      postcss-normalize-timing-functions: 7.0.1(postcss@8.5.6)
+      postcss-normalize-unicode: 7.0.5(postcss@8.5.6)
+      postcss-normalize-url: 7.0.1(postcss@8.5.6)
+      postcss-normalize-whitespace: 7.0.1(postcss@8.5.6)
+      postcss-ordered-values: 7.0.2(postcss@8.5.6)
+      postcss-reduce-initial: 7.0.5(postcss@8.5.6)
+      postcss-reduce-transforms: 7.0.1(postcss@8.5.6)
+      postcss-svgo: 7.1.0(postcss@8.5.6)
+      postcss-unique-selectors: 7.0.4(postcss@8.5.6)
+
   cssnano-utils@4.0.2(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+
+  cssnano-utils@5.0.1(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
 
   cssnano@6.1.2(postcss@8.5.6):
     dependencies:
       cssnano-preset-default: 6.1.2(postcss@8.5.6)
+      lilconfig: 3.1.3
+      postcss: 8.5.6
+
+  cssnano@7.1.2(postcss@8.5.6):
+    dependencies:
+      cssnano-preset-default: 7.0.10(postcss@8.5.6)
       lilconfig: 3.1.3
       postcss: 8.5.6
 
@@ -9226,7 +9531,7 @@ snapshots:
       relateurl: 0.2.7
       terser: 5.44.1
 
-  html-webpack-plugin@5.6.3(@rspack/core@1.6.7(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5)):
+  html-webpack-plugin@5.6.4(@rspack/core@1.6.8(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5)):
     dependencies:
       '@types/html-minifier-terser': 6.1.0
       html-minifier-terser: 6.1.0
@@ -9234,19 +9539,8 @@ snapshots:
       pretty-error: 4.0.0
       tapable: 2.3.0
     optionalDependencies:
-      '@rspack/core': 1.6.7(@swc/helpers@0.5.17)
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
-
-  html-webpack-plugin@5.6.4(@rspack/core@1.6.7(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5)):
-    dependencies:
-      '@types/html-minifier-terser': 6.1.0
-      html-minifier-terser: 6.1.0
-      lodash: 4.17.21
-      pretty-error: 4.0.0
-      tapable: 2.3.0
-    optionalDependencies:
-      '@rspack/core': 1.6.7(@swc/helpers@0.5.17)
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      '@rspack/core': 1.6.8(@swc/helpers@0.5.17)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
 
   htmlparser2@10.0.0:
     dependencies:
@@ -9526,6 +9820,55 @@ snapshots:
       type-is: 2.0.1
       vary: 1.1.2
 
+  lightningcss-android-arm64@1.30.2:
+    optional: true
+
+  lightningcss-darwin-arm64@1.30.2:
+    optional: true
+
+  lightningcss-darwin-x64@1.30.2:
+    optional: true
+
+  lightningcss-freebsd-x64@1.30.2:
+    optional: true
+
+  lightningcss-linux-arm-gnueabihf@1.30.2:
+    optional: true
+
+  lightningcss-linux-arm64-gnu@1.30.2:
+    optional: true
+
+  lightningcss-linux-arm64-musl@1.30.2:
+    optional: true
+
+  lightningcss-linux-x64-gnu@1.30.2:
+    optional: true
+
+  lightningcss-linux-x64-musl@1.30.2:
+    optional: true
+
+  lightningcss-win32-arm64-msvc@1.30.2:
+    optional: true
+
+  lightningcss-win32-x64-msvc@1.30.2:
+    optional: true
+
+  lightningcss@1.30.2:
+    dependencies:
+      detect-libc: 2.1.2
+    optionalDependencies:
+      lightningcss-android-arm64: 1.30.2
+      lightningcss-darwin-arm64: 1.30.2
+      lightningcss-darwin-x64: 1.30.2
+      lightningcss-freebsd-x64: 1.30.2
+      lightningcss-linux-arm-gnueabihf: 1.30.2
+      lightningcss-linux-arm64-gnu: 1.30.2
+      lightningcss-linux-arm64-musl: 1.30.2
+      lightningcss-linux-x64-gnu: 1.30.2
+      lightningcss-linux-x64-musl: 1.30.2
+      lightningcss-win32-arm64-msvc: 1.30.2
+      lightningcss-win32-x64-msvc: 1.30.2
+
   lilconfig@2.1.0: {}
 
   lilconfig@3.1.3: {}
@@ -9632,6 +9975,10 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
+  magic-string@0.30.21:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.5
+
   make-dir@2.1.0:
     dependencies:
       pify: 4.0.1
@@ -9652,6 +9999,8 @@ snapshots:
   mdn-data@2.0.28: {}
 
   mdn-data@2.0.30: {}
+
+  mdn-data@2.12.2: {}
 
   media-typer@1.1.0: {}
 
@@ -9694,11 +10043,11 @@ snapshots:
 
   mimic-fn@4.0.0: {}
 
-  mini-css-extract-plugin@2.9.2(webpack@5.104.0(esbuild@0.25.5)):
+  mini-css-extract-plugin@2.9.4(webpack@5.104.0(esbuild@0.25.5)):
     dependencies:
       schema-utils: 4.3.3
       tapable: 2.3.0
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
 
   minimalistic-assert@1.0.1: {}
 
@@ -10018,6 +10367,12 @@ snapshots:
 
   possible-typed-array-names@1.1.0: {}
 
+  postcss-calc@10.1.1(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-selector-parser: 7.1.1
+      postcss-value-parser: 4.2.0
+
   postcss-calc@9.0.1(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
@@ -10032,7 +10387,21 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
+  postcss-colormin@7.0.5(postcss@8.5.6):
+    dependencies:
+      browserslist: 4.28.1
+      caniuse-api: 3.0.0
+      colord: 2.9.3
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
   postcss-convert-values@6.1.0(postcss@8.5.6):
+    dependencies:
+      browserslist: 4.28.1
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
+  postcss-convert-values@7.0.8(postcss@8.5.6):
     dependencies:
       browserslist: 4.28.1
       postcss: 8.5.6
@@ -10051,7 +10420,16 @@ snapshots:
     dependencies:
       postcss: 8.5.6
 
+  postcss-discard-comments@7.0.5(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-selector-parser: 7.1.1
+
   postcss-discard-duplicates@6.0.3(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+
+  postcss-discard-duplicates@7.0.2(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
 
@@ -10059,7 +10437,15 @@ snapshots:
     dependencies:
       postcss: 8.5.6
 
+  postcss-discard-empty@7.0.1(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+
   postcss-discard-overridden@6.0.2(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+
+  postcss-discard-overridden@7.0.1(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
 
@@ -10085,6 +10471,12 @@ snapshots:
       postcss-value-parser: 4.2.0
       stylehacks: 6.1.1(postcss@8.5.6)
 
+  postcss-merge-longhand@7.0.5(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+      stylehacks: 7.0.7(postcss@8.5.6)
+
   postcss-merge-rules@6.1.1(postcss@8.5.6):
     dependencies:
       browserslist: 4.28.1
@@ -10093,7 +10485,20 @@ snapshots:
       postcss: 8.5.6
       postcss-selector-parser: 6.1.2
 
+  postcss-merge-rules@7.0.7(postcss@8.5.6):
+    dependencies:
+      browserslist: 4.28.1
+      caniuse-api: 3.0.0
+      cssnano-utils: 5.0.1(postcss@8.5.6)
+      postcss: 8.5.6
+      postcss-selector-parser: 7.1.1
+
   postcss-minify-font-values@6.1.0(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
+  postcss-minify-font-values@7.0.1(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
@@ -10105,6 +10510,13 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
+  postcss-minify-gradients@7.0.1(postcss@8.5.6):
+    dependencies:
+      colord: 2.9.3
+      cssnano-utils: 5.0.1(postcss@8.5.6)
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
   postcss-minify-params@6.1.0(postcss@8.5.6):
     dependencies:
       browserslist: 4.28.1
@@ -10112,10 +10524,23 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
+  postcss-minify-params@7.0.5(postcss@8.5.6):
+    dependencies:
+      browserslist: 4.28.1
+      cssnano-utils: 5.0.1(postcss@8.5.6)
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
   postcss-minify-selectors@6.0.4(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
       postcss-selector-parser: 6.1.2
+
+  postcss-minify-selectors@7.0.5(postcss@8.5.6):
+    dependencies:
+      cssesc: 3.0.0
+      postcss: 8.5.6
+      postcss-selector-parser: 7.1.1
 
   postcss-nesting@12.1.5(postcss@8.5.6):
     dependencies:
@@ -10128,7 +10553,16 @@ snapshots:
     dependencies:
       postcss: 8.5.6
 
+  postcss-normalize-charset@7.0.1(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+
   postcss-normalize-display-values@6.0.2(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
+  postcss-normalize-display-values@7.0.1(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
@@ -10138,7 +10572,17 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
+  postcss-normalize-positions@7.0.1(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
   postcss-normalize-repeat-style@6.0.2(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
+  postcss-normalize-repeat-style@7.0.1(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
@@ -10148,7 +10592,17 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
+  postcss-normalize-string@7.0.1(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
   postcss-normalize-timing-functions@6.0.2(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
+  postcss-normalize-timing-functions@7.0.1(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
@@ -10159,7 +10613,18 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
+  postcss-normalize-unicode@7.0.5(postcss@8.5.6):
+    dependencies:
+      browserslist: 4.28.1
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
   postcss-normalize-url@6.0.2(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
+  postcss-normalize-url@7.0.1(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
@@ -10169,9 +10634,20 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
+  postcss-normalize-whitespace@7.0.1(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
   postcss-ordered-values@6.0.2(postcss@8.5.6):
     dependencies:
       cssnano-utils: 4.0.2(postcss@8.5.6)
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
+  postcss-ordered-values@7.0.2(postcss@8.5.6):
+    dependencies:
+      cssnano-utils: 5.0.1(postcss@8.5.6)
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
@@ -10185,12 +10661,28 @@ snapshots:
       caniuse-api: 3.0.0
       postcss: 8.5.6
 
+  postcss-reduce-initial@7.0.5(postcss@8.5.6):
+    dependencies:
+      browserslist: 4.28.1
+      caniuse-api: 3.0.0
+      postcss: 8.5.6
+
   postcss-reduce-transforms@6.0.2(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
+  postcss-reduce-transforms@7.0.1(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+
   postcss-selector-parser@6.1.2:
+    dependencies:
+      cssesc: 3.0.0
+      util-deprecate: 1.0.2
+
+  postcss-selector-parser@7.1.1:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
@@ -10201,10 +10693,21 @@ snapshots:
       postcss-value-parser: 4.2.0
       svgo: 3.3.2
 
+  postcss-svgo@7.1.0(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-value-parser: 4.2.0
+      svgo: 4.0.0
+
   postcss-unique-selectors@6.0.4(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
       postcss-selector-parser: 6.1.2
+
+  postcss-unique-selectors@7.0.4(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+      postcss-selector-parser: 7.1.1
 
   postcss-value-parser@4.2.0: {}
 
@@ -10367,8 +10870,6 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react-refresh@0.17.0: {}
-
   react-refresh@0.18.0: {}
 
   react-router-dom@6.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
@@ -10382,6 +10883,15 @@ snapshots:
     dependencies:
       '@remix-run/router': 1.20.0
       react: 18.3.1
+
+  react-server-dom-webpack@19.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(webpack@5.104.0(esbuild@0.25.5)):
+    dependencies:
+      acorn-loose: 8.5.2
+      neo-async: 2.6.2
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack-sources: 3.3.3
 
   react-side-effect@2.1.2(react@18.3.1):
     dependencies:
@@ -10505,11 +11015,11 @@ snapshots:
 
   rslog@1.3.2: {}
 
-  rspack-manifest-plugin@5.0.3(@rspack/core@1.6.7(@swc/helpers@0.5.17)):
+  rspack-manifest-plugin@5.0.3(@rspack/core@1.6.8(@swc/helpers@0.5.17)):
     dependencies:
       '@rspack/lite-tapable': 1.1.0
     optionalDependencies:
-      '@rspack/core': 1.6.7(@swc/helpers@0.5.17)
+      '@rspack/core': 1.6.8(@swc/helpers@0.5.17)
 
   run-parallel@1.2.0:
     dependencies:
@@ -10627,6 +11137,8 @@ snapshots:
     optionalDependencies:
       '@parcel/watcher': 2.5.1
     optional: true
+
+  sax@1.4.3: {}
 
   scheduler@0.23.2:
     dependencies:
@@ -10845,6 +11357,12 @@ snapshots:
       postcss: 8.5.6
       postcss-selector-parser: 6.1.2
 
+  stylehacks@7.0.7(postcss@8.5.6):
+    dependencies:
+      browserslist: 4.28.1
+      postcss: 8.5.6
+      postcss-selector-parser: 7.1.1
+
   supports-color@5.5.0:
     dependencies:
       has-flag: 3.0.0
@@ -10873,6 +11391,16 @@ snapshots:
       csso: 5.0.5
       picocolors: 1.1.1
 
+  svgo@4.0.0:
+    dependencies:
+      commander: 11.1.0
+      css-select: 5.2.2
+      css-tree: 3.1.0
+      css-what: 6.2.2
+      csso: 5.0.5
+      picocolors: 1.1.1
+      sax: 1.4.3
+
   sync-child-process@1.0.2:
     dependencies:
       sync-message-port: 1.1.3
@@ -10894,28 +11422,28 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  terser-webpack-plugin@5.3.14(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5)):
+  terser-webpack-plugin@5.3.14(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
       terser: 5.44.1
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
     optionalDependencies:
-      '@swc/core': 1.11.31(@swc/helpers@0.5.17)
+      '@swc/core': 1.14.0(@swc/helpers@0.5.17)
       esbuild: 0.25.5
 
-  terser-webpack-plugin@5.3.16(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5)):
+  terser-webpack-plugin@5.3.16(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
       terser: 5.44.1
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
     optionalDependencies:
-      '@swc/core': 1.11.31(@swc/helpers@0.5.17)
+      '@swc/core': 1.14.0(@swc/helpers@0.5.17)
       esbuild: 0.25.5
 
   terser@5.44.1:
@@ -10957,7 +11485,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  ts-checker-rspack-plugin@1.2.2(@rspack/core@1.6.7(@swc/helpers@0.5.17))(typescript@5.0.4):
+  ts-checker-rspack-plugin@1.2.2(@rspack/core@1.6.8(@swc/helpers@0.5.17))(typescript@5.0.4):
     dependencies:
       '@babel/code-frame': 7.27.1
       '@rspack/lite-tapable': 1.1.0
@@ -10968,7 +11496,7 @@ snapshots:
       picocolors: 1.1.1
       typescript: 5.0.4
     optionalDependencies:
-      '@rspack/core': 1.6.7(@swc/helpers@0.5.17)
+      '@rspack/core': 1.6.8(@swc/helpers@0.5.17)
 
   ts-deepmerge@7.0.2: {}
 
@@ -10979,7 +11507,7 @@ snapshots:
       micromatch: 4.0.8
       semver: 7.7.3
       typescript: 5.0.4
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
 
   tsconfig-paths-webpack-plugin@4.2.0:
     dependencies:
@@ -11095,14 +11623,14 @@ snapshots:
 
   webpack-sources@3.3.3: {}
 
-  webpack-subresource-integrity@5.1.0(html-webpack-plugin@5.6.3(@rspack/core@1.6.7(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5)))(webpack@5.104.0(esbuild@0.25.5)):
+  webpack-subresource-integrity@5.1.0(html-webpack-plugin@5.6.4(@rspack/core@1.6.8(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5)))(webpack@5.104.0(esbuild@0.25.5)):
     dependencies:
       typed-assert: 1.0.9
-      webpack: 5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)
+      webpack: 5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)
     optionalDependencies:
-      html-webpack-plugin: 5.6.3(@rspack/core@1.6.7(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5))
+      html-webpack-plugin: 5.6.4(@rspack/core@1.6.8(@swc/helpers@0.5.17))(webpack@5.104.0(esbuild@0.25.5))
 
-  webpack@5.104.0(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5):
+  webpack@5.104.0(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.8
@@ -11126,7 +11654,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.0
-      terser-webpack-plugin: 5.3.16(@swc/core@1.11.31(@swc/helpers@0.5.17))(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5))
+      terser-webpack-plugin: 5.3.16(@swc/core@1.14.0(@swc/helpers@0.5.17))(esbuild@0.25.5)(webpack@5.104.0(esbuild@0.25.5))
       watchpack: 2.4.4
       webpack-sources: 3.3.3
     transitivePeerDependencies:
