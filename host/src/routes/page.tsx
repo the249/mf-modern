@@ -1,5 +1,4 @@
 import { Helmet } from '@modern-js/runtime/head';
-import './index.css';
 
 const Index = () => (
   <div className="container-box">
@@ -11,9 +10,7 @@ const Index = () => (
       />
     </Helmet>
 
-    <div className="landing-page">
-      This is the host
-    </div>
+    <div>This is the host</div>
   </div>
 );
 

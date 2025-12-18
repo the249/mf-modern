@@ -8,9 +8,9 @@ export default createModuleFederationConfig({
   },
   // Update filename to be inside 'static'
   filename: 'static/remoteEntry.js',
-  // remotes: {
-  //   'provider': 'modern_provider@http://localhost:3001/mf-manifest.json',
-  // },
+  remotes: {
+    'provider': 'modern_provider@http://localhost:3001/mf-manifest.json',
+  },
   exposes: {
     './app': './src/export.tsx',
   },
@@ -20,10 +20,10 @@ export default createModuleFederationConfig({
   shared: {
     react: { singleton: true, requiredVersion: false },
     'react-dom': { singleton: true, requiredVersion: false },
-    '@module-federation/modern-js': { singleton: true, requiredVersion: false },
+    '@modern-js/plugin-tailwindcss': { singleton: true, requiredVersion: false },
   },
   shareStrategy: 'loaded-first',
-  // runtimePlugins: [
-  //   path.join(__dirname, './src/plugins/retry.ts'),
-  // ],
+  runtimePlugins: [
+    path.join(__dirname, './src/plugins/retry.ts'),
+  ],
 });

@@ -62,3 +62,6 @@ AGENTS.md
 # module federation
 @mf-types/
 .mf/
+
+# Catalyst
+src/components/Catalyst/

@@ -1,6 +1,6 @@
 import { Helmet } from '@modern-js/runtime/head';
 import './index.css';
-// import Provider from 'provider';
+import { Button } from 'provider';
 
 const Index = () => (
   <div className="container-box">
@@ -15,7 +15,7 @@ const Index = () => (
     <div className="landing-page">
       This consumes component from provider
     </div>
-    {/* <Provider /> */}
+    <Button />
   </div>
 );
 

@@ -26,17 +26,19 @@
     "pre-commit": "npx lint-staged"
   },
   "dependencies": {
-    "@modern-js/runtime": "^2.68.0",
-    "@module-federation/bridge-react": "^0.21.6",
-    "@module-federation/retry-plugin": "^0.21.6",
+    "@heroicons/react": "^2.2.0",
+    "@modern-js/plugin-tailwindcss": "2.68.7",
+    "@modern-js/runtime": "2.68.7",
+    "@module-federation/bridge-react": "0.21.6",
+    "@module-federation/retry-plugin": "0.21.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@modern-js/app-tools": "^2.68.0",
-    "@modern-js/tsconfig": "^2.68.0",
-    "@module-federation/modern-js": "^0.21.6",
+    "@modern-js/app-tools": "2.68.7",
+    "@modern-js/tsconfig": "2.68.7",
+    "@module-federation/modern-js": "0.21.6",
     "@types/jest": "~29.2.4",
     "@types/node": "~18.11.9",
     "@types/react": "^18.3.11",
@@ -44,6 +46,7 @@
     "lint-staged": "~13.1.0",
     "rimraf": "^6.0.1",
     "simple-git-hooks": "^2.11.1",
+    "tailwindcss": "~4.1.18",
     "typescript": "~5.0.4"
   }
 }
